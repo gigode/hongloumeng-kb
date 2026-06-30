@@ -17,6 +17,8 @@ def test_reader_has_highlight_toggle():
 
 def test_graph_uses_chinese_relation_labels():
     script = (DOCS_DIR / "graph" / "graph.js").read_text(encoding="utf-8")
+    html = (DOCS_DIR / "graph" / "index.html").read_text(encoding="utf-8")
     assert "父母子女" in script
     assert "人物出场于事件" in script
     assert "option.textContent = labelForRelation(type)" in script
+    assert "graph.js?v=" in html

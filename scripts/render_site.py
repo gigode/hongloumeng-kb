@@ -31,6 +31,7 @@ TYPE_FILES = {
     "concept": "concept.html",
     "time": "time.html",
 }
+GRAPH_ASSET_VERSION = "20260630-cn-relations-v2"
 
 
 def page(title: str, body: str, current: str = "", root_prefix: str = "") -> str:
@@ -191,7 +192,7 @@ def render_entity_pages(entities: dict, chapters: dict[str, str]) -> None:
 def render_graph_page() -> None:
     graph_dir = DOCS_DIR / "graph"
     graph_dir.mkdir(parents=True, exist_ok=True)
-    body = """
+    body = f"""
 <main class="graph-shell">
   <section class="graph-panel">
     <p class="eyebrow">Graph Explorer</p>
@@ -206,7 +207,7 @@ def render_graph_page() -> None:
     <svg id="graph-svg" role="img" aria-label="红楼梦知识图谱"></svg>
   </section>
 </main>
-<script src="graph.js"></script>
+<script src="graph.js?v={GRAPH_ASSET_VERSION}"></script>
 """
     (graph_dir / "index.html").write_text(page("前五回关系图", body, current="图谱", root_prefix="../"), encoding="utf-8")
 
