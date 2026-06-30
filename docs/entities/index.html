@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>实体索引</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../index.html">红楼梦知识图谱</a>
+    <nav><a class="" href="../index.html">总览</a>
+<a class="" href="../chapters/001.html">阅读</a>
+<a class="active" href="../entities/person.html">实体</a>
+<a class="" href="../graph/index.html">图谱</a>
+<a class="" href="../plans/2026-06-30-hongloumeng-kb.html">计划</a></nav>
+  </header>
+  
+<main class="workbench">
+  <section class="section-head"><p class="eyebrow">Index</p><h1>实体索引</h1><p>首版从前五回自动抽取，后续可按章节增量扩展。</p></section>
+  <section class="entity-grid"><a class="entity-tile person" href="person.html"><span>人物</span><strong>28</strong></a><a class="entity-tile place" href="place.html"><span>地点</span><strong>10</strong></a><a class="entity-tile household" href="household.html"><span>府系</span><strong>4</strong></a><a class="entity-tile role" href="role.html"><span>身份</span><strong>9</strong></a><a class="entity-tile object" href="object.html"><span>物件</span><strong>2</strong></a><a class="entity-tile text" href="text.html"><span>诗文</span><strong>2</strong></a><a class="entity-tile concept" href="concept.html"><span>概念</span><strong>7</strong></a><a class="entity-tile time" href="time.html"><span>时间</span><strong>5</strong></a></section>
+</main>
+
+  <script>
+    const toggle = document.querySelector('[data-highlight-toggle]');
+    if (toggle) {
+      const saved = localStorage.getItem('hlm-highlight') !== 'off';
+      document.body.classList.toggle('no-highlight', !saved);
+      toggle.checked = saved;
+      toggle.addEventListener('change', () => {
+        document.body.classList.toggle('no-highlight', !toggle.checked);
+        localStorage.setItem('hlm-highlight', toggle.checked ? 'on' : 'off');
+      });
+    }
+  </script>
+</body>
+</html>

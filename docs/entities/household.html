@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>府系索引</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../index.html">红楼梦知识图谱</a>
+    <nav><a class="" href="../index.html">总览</a>
+<a class="" href="../chapters/001.html">阅读</a>
+<a class="active" href="../entities/person.html">实体</a>
+<a class="" href="../graph/index.html">图谱</a>
+<a class="" href="../plans/2026-06-30-hongloumeng-kb.html">计划</a></nav>
+  </header>
+  
+<main class="workbench">
+  <section class="section-head">
+    <p class="eyebrow">实体索引</p>
+    <h1>府系</h1>
+    <p>4 个条目，按出现次数排序。点击引用可回到对应段落。</p>
+  </section>
+  <div class="table-wrap"><table><thead><tr><th>实体</th><th>次数</th><th>引用</th></tr></thead><tbody><tr id="薛家"><td><strong>薛家</strong><div class="muted">—</div></td><td>13</td><td><a href="../chapters/003.html#p-27">003 [27]</a> <a href="../chapters/004.html#p-4">004 [4]</a> <a href="../chapters/004.html#p-4">004 [4]</a> <a href="../chapters/004.html#p-6">004 [6]</a> <a href="../chapters/004.html#p-9">004 [9]</a> <a href="../chapters/004.html#p-9">004 [9]</a> <a href="../chapters/004.html#p-10">004 [10]</a> <a href="../chapters/004.html#p-11">004 [11]</a> <a href="../chapters/004.html#p-12">004 [12]</a> <a href="../chapters/004.html#p-12">004 [12]</a> <a href="../chapters/004.html#p-13">004 [13]</a> <a href="../chapters/004.html#p-17">004 [17]</a></td></tr><tr id="甄家"><td><strong>甄家</strong><div class="muted">—</div></td><td>10</td><td><a href="../chapters/001.html#p-20">001 [20]</a> <a href="../chapters/001.html#p-21">001 [21]</a> <a href="../chapters/001.html#p-28">001 [28]</a> <a href="../chapters/001.html#p-36">001 [36]</a> <a href="../chapters/002.html#p-3">002 [3]</a> <a href="../chapters/002.html#p-3">002 [3]</a> <a href="../chapters/002.html#p-3">002 [3]</a> <a href="../chapters/002.html#p-3">002 [3]</a> <a href="../chapters/002.html#p-15">002 [15]</a> <a href="../chapters/002.html#p-17">002 [17]</a></td></tr><tr id="林家"><td><strong>林家</strong><div class="muted">—</div></td><td>2</td><td><a href="../chapters/002.html#p-7">002 [7]</a> <a href="../chapters/002.html#p-16">002 [16]</a></td></tr><tr id="贾家"><td><strong>贾家</strong><div class="muted">—</div></td><td>1</td><td><a href="../chapters/004.html#p-15">004 [15]</a></td></tr></tbody></table></div>
+</main>
+
+  <script>
+    const toggle = document.querySelector('[data-highlight-toggle]');
+    if (toggle) {
+      const saved = localStorage.getItem('hlm-highlight') !== 'off';
+      document.body.classList.toggle('no-highlight', !saved);
+      toggle.checked = saved;
+      toggle.addEventListener('change', () => {
+        document.body.classList.toggle('no-highlight', !toggle.checked);
+        localStorage.setItem('hlm-highlight', toggle.checked ? 'on' : 'off');
+      });
+    }
+  </script>
+</body>
+</html>

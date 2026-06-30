@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hongloumeng KB Implementation Plan</title>
+  <style>
+    :root { color-scheme: light; --ink:#202124; --muted:#5f6368; --line:#d8dce3; --paper:#fff; --wash:#f7f8fa; --accent:#7b2d26; --code:#f4f1ed; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--wash); color: var(--ink); font: 16px/1.72 -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    main { max-width: 980px; margin: 0 auto; padding: 40px 24px 72px; background: var(--paper); min-height: 100vh; box-shadow: 0 0 0 1px rgba(0,0,0,.04); }
+    nav { margin-bottom: 24px; color: var(--muted); font-size: 14px; }
+    nav a, a { color: var(--accent); text-decoration: none; }
+    nav a:hover, a:hover { text-decoration: underline; }
+    h1, h2, h3, h4 { line-height: 1.28; margin: 1.6em 0 .65em; }
+    h1 { font-size: 32px; border-bottom: 2px solid var(--line); padding-bottom: 12px; margin-top: 0; }
+    h2 { font-size: 24px; border-bottom: 1px solid var(--line); padding-bottom: 8px; }
+    h3 { font-size: 20px; }
+    p, ul, ol, table, pre, blockquote { margin: 1em 0; }
+    ul, ol { padding-left: 1.5em; }
+    li + li { margin-top: .25em; }
+    code { background: var(--code); padding: .12em .35em; border-radius: 4px; font-family: Consolas, "Cascadia Mono", monospace; font-size: .92em; }
+    pre { overflow: auto; padding: 16px; background: #282c34; color: #f8f8f2; border-radius: 8px; }
+    pre code { background: transparent; padding: 0; color: inherit; }
+    blockquote { border-left: 4px solid var(--line); padding-left: 16px; color: var(--muted); }
+    table { width: 100%; border-collapse: collapse; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: #f1f3f4; text-align: left; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
+    .file-list { list-style: none; padding: 0; }
+    .file-list li { padding: 12px 0; border-bottom: 1px solid var(--line); }
+    .path { color: var(--muted); font-size: 13px; }
+    @media (max-width: 640px) { main { padding: 24px 16px 56px; } h1 { font-size: 26px; } h2 { font-size: 21px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <nav><a href="../index.html">HTML 文件索引</a></nav>
+    <h1 id="hongloumeng-kb-implementation-plan" tabindex="-1"><a class="header-anchor" href="#hongloumeng-kb-implementation-plan">Hongloumeng KB Implementation Plan</a></h1>
+<blockquote>
+<p><strong>For Claude:</strong> REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.</p>
+</blockquote>
+<p><strong>Goal:</strong> Build a small, publishable knowledge graph and reading site for 《红楼梦》, starting with a 5-chapter pilot that can later scale to all 120 chapters.</p>
+<p><strong>Architecture:</strong> Follow the useful shape of <code>baojie/shiji-kb</code>, but keep the first version much smaller: annotated Markdown as the human-readable source of truth, JSON indexes as the machine-readable graph layer, and a static GitHub Pages site as the user interface. Avoid Neo4j, complex agent loops, full wiki generation, or large-scale inferred relations in the MVP.</p>
+<p><strong>Tech Stack:</strong> Python 3.11+, Markdown/JSON, pytest, BeautifulSoup or MediaWiki API for source import, static HTML/CSS/JavaScript, Cytoscape.js or Sigma.js for graph visualization, GitHub Pages for publishing.</p>
+<hr>
+<h2 id="lessons-from-baojie%2Fshiji-kb" tabindex="-1"><a class="header-anchor" href="#lessons-from-baojie%2Fshiji-kb">Lessons From <code>baojie/shiji-kb</code></a></h2>
+<p>Keep:</p>
+<ul>
+<li><code>chapter_md/*.tagged.md</code> style annotated source files.</li>
+<li>Stable paragraph numbers for precise citations.</li>
+<li>JSON entity indexes with references back to chapter and paragraph.</li>
+<li>Static <code>docs/</code> output for GitHub Pages.</li>
+<li>Simple Python scripts that can be inspected and rerun.</li>
+</ul>
+<p>Do not copy yet:</p>
+<ul>
+<li>22 entity and verb classes.</li>
+<li>Event chronology inference and multi-round reflection loops.</li>
+<li>20,000-page wiki generation.</li>
+<li>Metro-map app, game app, RDF/OWL export, Butler agent.</li>
+</ul>
+<p>Adapt for fiction:</p>
+<ul>
+<li>Replace historical chronology emphasis with character, household, residence, object, poem, dream, and episode relations.</li>
+<li>Store every extracted relation with evidence: chapter id, paragraph id, quote, confidence.</li>
+<li>Mark interpretive relations as low/medium confidence unless directly stated.</li>
+</ul>
+<h2 id="mvp-scope" tabindex="-1"><a class="header-anchor" href="#mvp-scope">MVP Scope</a></h2>
+<p>The first published version should contain:</p>
+<ul>
+<li>Raw text metadata for all 120 chapters if source import is easy.</li>
+<li>Fully annotated pilot for chapters 1-5 only.</li>
+<li>Core entity types: person, place, household/clan, role/status, object, poem/text, concept/motif, time.</li>
+<li>Entity index pages.</li>
+<li>A chapter reader with syntax highlighting and paragraph anchors.</li>
+<li>A graph page showing person, place, household, object, and event links from the pilot.</li>
+<li>A short README explaining source, scope, known limits, and how to regenerate.</li>
+</ul>
+<p>Suggested base text:</p>
+<ul>
+<li>Wikisource <code>紅樓夢</code>, 120 chapters, no commentary, with first 80 chapters based on 庚辰本 and last 40 based on 程甲本.</li>
+<li>Keep source metadata in the repo so later edition choices are visible.</li>
+</ul>
+<h2 id="annotation-syntax" tabindex="-1"><a class="header-anchor" href="#annotation-syntax">Annotation Syntax</a></h2>
+<p>Use a reduced tag set compatible with the <code>shiji-kb</code> visual style:</p>
+<pre><code class="language-text">〖@人物〗       person
+〖=地点〗       place
+〖&amp;家族/府系〗   household
+〖#身份/角色〗   role
+〖•物件〗       object
+〖{诗文/书名〗   text
+〖_概念/母题〗   concept
+〖%时间〗       time
+</code></pre>
+<p>Examples:</p>
+<pre><code class="language-markdown">[1.1] 〖@甄士隐〗梦中见一僧一道，携着〖•通灵宝玉〗，说起〖_梦幻〗因缘。
+
+[3.2] 〖@林黛玉〗进〖=荣国府〗，拜见〖@贾母〗，众人皆称她为〖#姑娘〗。
+</code></pre>
+<h2 id="data-model" tabindex="-1"><a class="header-anchor" href="#data-model">Data Model</a></h2>
+<p>Create these source and derived files:</p>
+<pre><code class="language-text">texts/raw/001.md
+texts/tagged/001_甄士隐梦幻识通灵.tagged.md
+data/chapters.json
+data/entities.json
+data/aliases.json
+data/events.json
+data/relations.json
+data/graph.json
+docs/index.html
+docs/chapters/001.html
+docs/entities/person.html
+docs/graph/index.html
+</code></pre>
+<p>Entity shape:</p>
+<pre><code class="language-json">{
+  &quot;id&quot;: &quot;person:jia-baoyu&quot;,
+  &quot;type&quot;: &quot;person&quot;,
+  &quot;name&quot;: &quot;贾宝玉&quot;,
+  &quot;aliases&quot;: [&quot;宝玉&quot;, &quot;宝二爷&quot;],
+  &quot;refs&quot;: [
+    {&quot;chapter&quot;: &quot;003&quot;, &quot;paragraph&quot;: &quot;3.4&quot;, &quot;surface&quot;: &quot;宝玉&quot;}
+  ]
+}
+</code></pre>
+<p>Relation shape:</p>
+<pre><code class="language-json">{
+  &quot;id&quot;: &quot;rel-0001&quot;,
+  &quot;source&quot;: &quot;person:lin-daiyu&quot;,
+  &quot;target&quot;: &quot;person:jia-baoyu&quot;,
+  &quot;type&quot;: &quot;cousin&quot;,
+  &quot;confidence&quot;: &quot;high&quot;,
+  &quot;evidence&quot;: {
+    &quot;chapter&quot;: &quot;003&quot;,
+    &quot;paragraph&quot;: &quot;3.9&quot;,
+    &quot;quote&quot;: &quot;...&quot;
+  }
+}
+</code></pre>
+<p>Event shape:</p>
+<pre><code class="language-json">{
+  &quot;id&quot;: &quot;event-001-001&quot;,
+  &quot;name&quot;: &quot;甄士隐梦幻识通灵&quot;,
+  &quot;type&quot;: &quot;dream_frame&quot;,
+  &quot;chapter&quot;: &quot;001&quot;,
+  &quot;paragraphs&quot;: [&quot;1.1&quot;, &quot;1.2&quot;],
+  &quot;participants&quot;: [&quot;person:zhen-shiyin&quot;],
+  &quot;objects&quot;: [&quot;object:tongling-baoyu&quot;],
+  &quot;places&quot;: [],
+  &quot;summary&quot;: &quot;甄士隐梦中见一僧一道携通灵宝玉，引出全书梦幻框架。&quot;
+}
+</code></pre>
+<h2 id="task-1%3A-project-scaffold" tabindex="-1"><a class="header-anchor" href="#task-1%3A-project-scaffold">Task 1: Project Scaffold</a></h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Create: <code>README.md</code></li>
+<li>Create: <code>pyproject.toml</code></li>
+<li>Create: <code>.gitignore</code></li>
+<li>Create: <code>docs/.nojekyll</code></li>
+<li>Create: <code>scripts/__init__.py</code></li>
+<li>Create: <code>tests/__init__.py</code></li>
+</ul>
+<p><strong>Step 1: Initialize git</strong></p>
+<p>Run:</p>
+<pre><code class="language-powershell">cd &quot;C:\Users\zm_ji\Documents\New project\hongloumeng-kb&quot;
+git init
+</code></pre>
+<p>Expected: repository initialized.</p>
+<p><strong>Step 2: Add package and test tooling</strong></p>
+<p>Create <code>pyproject.toml</code> with Python dependencies:</p>
+<pre><code class="language-toml">[project]
+name = &quot;hongloumeng-kb&quot;
+version = &quot;0.1.0&quot;
+requires-python = &quot;&gt;=3.11&quot;
+dependencies = [
+  &quot;beautifulsoup4&gt;=4.12&quot;,
+  &quot;requests&gt;=2.32&quot;,
+  &quot;pypinyin&gt;=0.51&quot;
+]
+
+[project.optional-dependencies]
+dev = [&quot;pytest&gt;=8.0&quot;, &quot;jsonschema&gt;=4.0&quot;]
+</code></pre>
+<p><strong>Step 3: Commit</strong></p>
+<pre><code class="language-powershell">git add README.md pyproject.toml .gitignore docs/.nojekyll scripts tests
+git commit -m &quot;chore: scaffold hongloumeng knowledge graph&quot;
+</code></pre>
+<h2 id="task-2%3A-source-import" tabindex="-1"><a class="header-anchor" href="#task-2%3A-source-import">Task 2: Source Import</a></h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Create: <code>scripts/fetch_wikisource.py</code></li>
+<li>Create: <code>scripts/segment_text.py</code></li>
+<li>Create: <code>texts/raw/</code></li>
+<li>Create: <code>data/chapters.json</code></li>
+<li>Test: <code>tests/test_source_import.py</code></li>
+</ul>
+<p><strong>Step 1: Write import tests</strong></p>
+<p>Test that a chapter has a title, non-empty body, and stable id:</p>
+<pre><code class="language-python">def test_chapter_metadata_shape():
+    chapter = {&quot;id&quot;: &quot;001&quot;, &quot;title&quot;: &quot;甄士隐梦幻识通灵&quot;}
+    assert chapter[&quot;id&quot;] == &quot;001&quot;
+    assert chapter[&quot;title&quot;]
+</code></pre>
+<p><strong>Step 2: Implement source fetcher</strong></p>
+<p>Fetch from Wikisource or store manually downloaded text. Normalize:</p>
+<ul>
+<li>Traditional or simplified choice recorded in metadata.</li>
+<li>One chapter per file.</li>
+<li>Remove navigation, edit links, and unrelated page chrome.</li>
+<li>Preserve chapter titles.</li>
+</ul>
+<p><strong>Step 3: Segment paragraphs</strong></p>
+<p>Generate paragraph ids:</p>
+<pre><code class="language-text">[1]
+[1.1]
+[1.2]
+</code></pre>
+<p>Use stable numbering so future annotations and evidence remain valid.</p>
+<p><strong>Step 4: Validate</strong></p>
+<p>Run:</p>
+<pre><code class="language-powershell">pytest tests/test_source_import.py -v
+</code></pre>
+<p>Expected: PASS.</p>
+<p><strong>Step 5: Commit</strong></p>
+<pre><code class="language-powershell">git add scripts/fetch_wikisource.py scripts/segment_text.py texts/raw data/chapters.json tests/test_source_import.py
+git commit -m &quot;feat: import and segment hongloumeng source text&quot;
+</code></pre>
+<h2 id="task-3%3A-annotation-spec-and-pilot-text" tabindex="-1"><a class="header-anchor" href="#task-3%3A-annotation-spec-and-pilot-text">Task 3: Annotation Spec And Pilot Text</a></h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Create: <code>docs/spec/annotation.md</code></li>
+<li>Create: <code>texts/tagged/001_*.tagged.md</code> through <code>005_*.tagged.md</code></li>
+<li>Test: <code>tests/test_annotation_integrity.py</code></li>
+</ul>
+<p><strong>Step 1: Write integrity tests</strong></p>
+<p>Test stripping tags returns original text content for each pilot chapter.</p>
+<p><strong>Step 2: Draft annotation spec</strong></p>
+<p>Define each tag, examples, and boundaries. Keep special notes for:</p>
+<ul>
+<li>aliases: 宝玉 vs 贾宝玉</li>
+<li>family labels: 贾府, 荣国府, 宁国府</li>
+<li>role labels: 丫鬟, 奶娘, 王妃</li>
+<li>objects: 通灵宝玉, 风月宝鉴, 金锁</li>
+<li>concepts: 梦, 情, 空, 色, 太虚幻境</li>
+</ul>
+<p><strong>Step 3: Annotate chapters 1-5</strong></p>
+<p>Start with high-value tags only. Do not mark every possible noun.</p>
+<p><strong>Step 4: Validate</strong></p>
+<p>Run:</p>
+<pre><code class="language-powershell">pytest tests/test_annotation_integrity.py -v
+</code></pre>
+<p>Expected: PASS.</p>
+<p><strong>Step 5: Commit</strong></p>
+<pre><code class="language-powershell">git add docs/spec/annotation.md texts/tagged tests/test_annotation_integrity.py
+git commit -m &quot;feat: add pilot annotations for first five chapters&quot;
+</code></pre>
+<h2 id="task-4%3A-entity-index-builder" tabindex="-1"><a class="header-anchor" href="#task-4%3A-entity-index-builder">Task 4: Entity Index Builder</a></h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Create: <code>scripts/build_entity_index.py</code></li>
+<li>Create: <code>data/aliases.json</code></li>
+<li>Generate: <code>data/entities.json</code></li>
+<li>Test: <code>tests/test_entity_index.py</code></li>
+</ul>
+<p><strong>Step 1: Write parser tests</strong></p>
+<pre><code class="language-python">def test_extract_person_tag():
+    text = &quot;〖@贾宝玉〗见〖@林黛玉〗&quot;
+    entities = extract_entities(text)
+    assert (&quot;person&quot;, &quot;贾宝玉&quot;) in entities
+    assert (&quot;person&quot;, &quot;林黛玉&quot;) in entities
+</code></pre>
+<p><strong>Step 2: Implement parser</strong></p>
+<p>Use regex per tag type. Parse inline alias form later only if needed:</p>
+<pre><code class="language-text">〖@宝玉|贾宝玉〗
+</code></pre>
+<p><strong>Step 3: Build <code>entities.json</code></strong></p>
+<p>For each canonical entity, store:</p>
+<ul>
+<li>id</li>
+<li>type</li>
+<li>name</li>
+<li>aliases</li>
+<li>refs</li>
+<li>count</li>
+</ul>
+<p><strong>Step 4: Validate</strong></p>
+<p>Run:</p>
+<pre><code class="language-powershell">pytest tests/test_entity_index.py -v
+python scripts/build_entity_index.py
+</code></pre>
+<p>Expected: PASS and <code>data/entities.json</code> generated.</p>
+<p><strong>Step 5: Commit</strong></p>
+<pre><code class="language-powershell">git add scripts/build_entity_index.py data/aliases.json data/entities.json tests/test_entity_index.py
+git commit -m &quot;feat: build entity index from tagged chapters&quot;
+</code></pre>
+<h2 id="task-5%3A-events-and-relations" tabindex="-1"><a class="header-anchor" href="#task-5%3A-events-and-relations">Task 5: Events And Relations</a></h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Create: <code>docs/spec/events-relations.md</code></li>
+<li>Create: <code>data/events.json</code></li>
+<li>Create: <code>data/relations.json</code></li>
+<li>Create: <code>scripts/validate_graph_data.py</code></li>
+<li>Test: <code>tests/test_graph_schema.py</code></li>
+</ul>
+<p><strong>Step 1: Define relation types</strong></p>
+<p>Start with:</p>
+<ul>
+<li><code>family_parent_child</code></li>
+<li><code>family_spouse</code></li>
+<li><code>family_sibling</code></li>
+<li><code>kinship_cousin</code></li>
+<li><code>household_member</code></li>
+<li><code>serves</code></li>
+<li><code>resides_at</code></li>
+<li><code>owns_or_carries</code></li>
+<li><code>appears_in_event</code></li>
+<li><code>co_occurs</code></li>
+</ul>
+<p><strong>Step 2: Enter pilot relations manually</strong></p>
+<p>Manual entry is acceptable for first 5 chapters because it gives cleaner examples and prevents over-inference.</p>
+<p><strong>Step 3: Validate schema</strong></p>
+<p>Check every edge source/target exists in <code>entities.json</code> or <code>events.json</code>, and every relation has evidence.</p>
+<p><strong>Step 4: Commit</strong></p>
+<pre><code class="language-powershell">git add docs/spec/events-relations.md data/events.json data/relations.json scripts/validate_graph_data.py tests/test_graph_schema.py
+git commit -m &quot;feat: add pilot events and relations&quot;
+</code></pre>
+<h2 id="task-6%3A-static-reader-and-entity-pages" tabindex="-1"><a class="header-anchor" href="#task-6%3A-static-reader-and-entity-pages">Task 6: Static Reader And Entity Pages</a></h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Create: <code>scripts/render_site.py</code></li>
+<li>Create: <code>site/templates/base.html</code></li>
+<li>Create: <code>site/templates/chapter.html</code></li>
+<li>Create: <code>site/templates/entity_index.html</code></li>
+<li>Create: <code>docs/css/styles.css</code></li>
+<li>Generate: <code>docs/chapters/*.html</code></li>
+<li>Generate: <code>docs/entities/*.html</code></li>
+<li>Test: <code>tests/test_render_site.py</code></li>
+</ul>
+<p><strong>Step 1: Render tag spans</strong></p>
+<p>Convert annotations to HTML spans:</p>
+<pre><code class="language-html">&lt;span class=&quot;entity person&quot; data-entity=&quot;贾宝玉&quot;&gt;贾宝玉&lt;/span&gt;
+</code></pre>
+<p><strong>Step 2: Add paragraph anchors</strong></p>
+<p>Each paragraph should render with an id:</p>
+<pre><code class="language-html">&lt;p id=&quot;p-1-1&quot;&gt;&lt;a class=&quot;pn&quot; href=&quot;#p-1-1&quot;&gt;[1.1]&lt;/a&gt;...&lt;/p&gt;
+</code></pre>
+<p><strong>Step 3: Generate entity pages</strong></p>
+<p>Each entity page lists references back to chapter anchors.</p>
+<p><strong>Step 4: Commit</strong></p>
+<pre><code class="language-powershell">git add scripts/render_site.py site docs tests/test_render_site.py
+git commit -m &quot;feat: render static reader and entity pages&quot;
+</code></pre>
+<h2 id="task-7%3A-graph-explorer" tabindex="-1"><a class="header-anchor" href="#task-7%3A-graph-explorer">Task 7: Graph Explorer</a></h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Create: <code>scripts/build_graph.py</code></li>
+<li>Generate: <code>data/graph.json</code></li>
+<li>Create: <code>docs/graph/index.html</code></li>
+<li>Create: <code>docs/graph/graph.js</code></li>
+<li>Create: <code>docs/graph/graph.css</code></li>
+<li>Test: <code>tests/test_graph_export.py</code></li>
+</ul>
+<p><strong>Step 1: Build graph export</strong></p>
+<p>Nodes:</p>
+<ul>
+<li>people</li>
+<li>places</li>
+<li>households</li>
+<li>objects</li>
+<li>events</li>
+</ul>
+<p>Edges:</p>
+<ul>
+<li>relations from <code>data/relations.json</code></li>
+<li><code>appears_in_event</code> edges from <code>data/events.json</code></li>
+</ul>
+<p><strong>Step 2: Implement browser graph</strong></p>
+<p>Use Cytoscape.js or Sigma.js. Required controls:</p>
+<ul>
+<li>search entity</li>
+<li>filter by relation type</li>
+<li>filter by chapter</li>
+<li>click node to show references</li>
+</ul>
+<p><strong>Step 3: Validate</strong></p>
+<p>Run:</p>
+<pre><code class="language-powershell">pytest tests/test_graph_export.py -v
+python scripts/build_graph.py
+</code></pre>
+<p>Expected: graph JSON has nodes and edges, and all ids resolve.</p>
+<p><strong>Step 4: Commit</strong></p>
+<pre><code class="language-powershell">git add scripts/build_graph.py data/graph.json docs/graph tests/test_graph_export.py
+git commit -m &quot;feat: add interactive graph explorer&quot;
+</code></pre>
+<h2 id="task-8%3A-readme-and-publishing" tabindex="-1"><a class="header-anchor" href="#task-8%3A-readme-and-publishing">Task 8: README And Publishing</a></h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Modify: <code>README.md</code></li>
+<li>Create: <code>.github/workflows/pages.yml</code> only if using GitHub Actions instead of Pages from branch</li>
+</ul>
+<p><strong>Step 1: README</strong></p>
+<p>Include:</p>
+<ul>
+<li>What this project is.</li>
+<li>Source text and edition note.</li>
+<li>MVP scope: first 5 chapters.</li>
+<li>How to regenerate data and site.</li>
+<li>Known limitations.</li>
+<li>License note.</li>
+</ul>
+<p><strong>Step 2: Local smoke test</strong></p>
+<p>Run:</p>
+<pre><code class="language-powershell">python scripts/build_entity_index.py
+python scripts/validate_graph_data.py
+python scripts/build_graph.py
+python scripts/render_site.py
+pytest -v
+</code></pre>
+<p>Expected: all pass.</p>
+<p><strong>Step 3: Publish to GitHub</strong></p>
+<p>Before publishing, confirm:</p>
+<ul>
+<li>GitHub repo name: recommended <code>hongloumeng-kb</code></li>
+<li>Visibility: public or private</li>
+<li>GitHub Pages source: <code>docs/</code> on <code>main</code></li>
+</ul>
+<p>Then:</p>
+<pre><code class="language-powershell">git remote add origin https://github.com/&lt;user&gt;/hongloumeng-kb.git
+git push -u origin main
+</code></pre>
+<p>Enable GitHub Pages from <code>main</code> / <code>docs</code>.</p>
+<p><strong>Step 4: Commit</strong></p>
+<pre><code class="language-powershell">git add README.md .github
+git commit -m &quot;docs: document pilot scope and publishing&quot;
+</code></pre>
+<h2 id="first-version-success-criteria" tabindex="-1"><a class="header-anchor" href="#first-version-success-criteria">First-Version Success Criteria</a></h2>
+<ul>
+<li><code>pytest -v</code> passes.</li>
+<li><code>data/entities.json</code>, <code>data/events.json</code>, <code>data/relations.json</code>, and <code>data/graph.json</code> are valid.</li>
+<li>Removing annotation tags from the 5 tagged chapters preserves the raw text.</li>
+<li><code>docs/index.html</code> opens locally.</li>
+<li>The graph page shows at least 30 nodes and 40 edges from chapters 1-5.</li>
+<li>Every relation edge has evidence.</li>
+<li>The GitHub repo is pushed and GitHub Pages is enabled.</li>
+</ul>
+<h2 id="later-expansion" tabindex="-1"><a class="header-anchor" href="#later-expansion">Later Expansion</a></h2>
+<p>After the 5-chapter pilot works:</p>
+<ul>
+<li>Annotate chapters 6-20.</li>
+<li>Add the 金陵十二钗专题 page.</li>
+<li>Add residence graph for 大观园.</li>
+<li>Add poem/判词 index.</li>
+<li>Add relation confidence review.</li>
+<li>Add export formats: CSV and GraphML.</li>
+<li>Consider Neo4j only after the static graph becomes too small for the questions we want to ask.</li>
+</ul>
+
+  </main>
+</body>
+</html>

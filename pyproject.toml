@@ -1,0 +1,20 @@
+[project]
+name = "hongloumeng-kb"
+version = "0.1.0"
+description = "A small static knowledge graph and highlighted reader for Hongloumeng."
+requires-python = ">=3.11"
+dependencies = [
+  "beautifulsoup4>=4.12",
+  "requests>=2.32",
+  "pypinyin>=0.51"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "jsonschema>=4.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,5116 @@
+{
+  "meta": {
+    "entity_count": 67,
+    "tagged_chapters": 5
+  },
+  "entities": {
+    "concept:情": {
+      "id": "concept:情",
+      "type": "concept",
+      "type_label": "概念",
+      "name": "情",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "1",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "2",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "8",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "9",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "9",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "9",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "9",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "12",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "25",
+          "surface": "情"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "31",
+          "surface": "情"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "6",
+          "surface": "情"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "10",
+          "surface": "情"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "14",
+          "surface": "情"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "14",
+          "surface": "情"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "14",
+          "surface": "情"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "16",
+          "surface": "情"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "1",
+          "surface": "情"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "17",
+          "surface": "情"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "情"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "情"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "情"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "情"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "情"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "情"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "33",
+          "surface": "情"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "33",
+          "surface": "情"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "33",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "1",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "2",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "6",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "13",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "13",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "15",
+          "surface": "情"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "16",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "7",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "15",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "17",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "18",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "22",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "29",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "48",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "48",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "48",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "48",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "49",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "51",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "54",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "57",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "57",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "63",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "65",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "69",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "70",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "70",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "72",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "73",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "73",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "73",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "74",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "74",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "74",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "75",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "77",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "78",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "78",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "78",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "79",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "79",
+          "surface": "情"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "81",
+          "surface": "情"
+        }
+      ],
+      "count": 86
+    },
+    "concept:梦": {
+      "id": "concept:梦",
+      "type": "concept",
+      "type_label": "概念",
+      "name": "梦",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "2",
+          "surface": "梦"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "5",
+          "surface": "梦"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "梦"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "梦"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "16",
+          "surface": "梦"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "29",
+          "surface": "梦"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "32",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "9",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "11",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "12",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "15",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "30",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "32",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "54",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "55",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "55",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "56",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "57",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "61",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "67",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "69",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "76",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "76",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "77",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "78",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "78",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "78",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "78",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "78",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "79",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "79",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "80",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "82",
+          "surface": "梦"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "82",
+          "surface": "梦"
+        }
+      ],
+      "count": 34
+    },
+    "concept:梦幻": {
+      "id": "concept:梦幻",
+      "type": "concept",
+      "type_label": "概念",
+      "name": "梦幻",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "1",
+          "surface": "梦幻"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "1",
+          "surface": "梦幻"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "梦幻"
+        }
+      ],
+      "count": 3
+    },
+    "concept:空": {
+      "id": "concept:空",
+      "type": "concept",
+      "type_label": "概念",
+      "name": "空",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "5",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "6",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "6",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "6",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "6",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "9",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "9",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "17",
+          "surface": "空"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "33",
+          "surface": "空"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "6",
+          "surface": "空"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "空"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "空"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "空"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "14",
+          "surface": "空"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "22",
+          "surface": "空"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "24",
+          "surface": "空"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "36",
+          "surface": "空"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "36",
+          "surface": "空"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "46",
+          "surface": "空"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "58",
+          "surface": "空"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "59",
+          "surface": "空"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "67",
+          "surface": "空"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "72",
+          "surface": "空"
+        }
+      ],
+      "count": 29
+    },
+    "concept:色": {
+      "id": "concept:色",
+      "type": "concept",
+      "type_label": "概念",
+      "name": "色",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "9",
+          "surface": "色"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "色"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "色"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "色"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "色"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "色"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "20",
+          "surface": "色"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "6",
+          "surface": "色"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "13",
+          "surface": "色"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "13",
+          "surface": "色"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "13",
+          "surface": "色"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "13",
+          "surface": "色"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "5",
+          "surface": "色"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "15",
+          "surface": "色"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "色"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "色"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "色"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "23",
+          "surface": "色"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "5",
+          "surface": "色"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "12",
+          "surface": "色"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "色"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "15",
+          "surface": "色"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "51",
+          "surface": "色"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "51",
+          "surface": "色"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "64",
+          "surface": "色"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "73",
+          "surface": "色"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "73",
+          "surface": "色"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "73",
+          "surface": "色"
+        }
+      ],
+      "count": 28
+    },
+    "concept:薄命": {
+      "id": "concept:薄命",
+      "type": "concept",
+      "type_label": "概念",
+      "name": "薄命",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "薄命"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "薄命"
+        }
+      ],
+      "count": 2
+    },
+    "concept:风月": {
+      "id": "concept:风月",
+      "type": "concept",
+      "type_label": "概念",
+      "name": "风月",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "9",
+          "surface": "风月"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "风月"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "风月"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "18",
+          "surface": "风月"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "风月"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "57",
+          "surface": "风月"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "73",
+          "surface": "风月"
+        }
+      ],
+      "count": 7
+    },
+    "household:林家": {
+      "id": "household:林家",
+      "type": "household",
+      "type_label": "府系",
+      "name": "林家",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "7",
+          "surface": "林家"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "16",
+          "surface": "林家"
+        }
+      ],
+      "count": 2
+    },
+    "household:甄家": {
+      "id": "household:甄家",
+      "type": "household",
+      "type_label": "府系",
+      "name": "甄家",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "20",
+          "surface": "甄家"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "21",
+          "surface": "甄家"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "28",
+          "surface": "甄家"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "36",
+          "surface": "甄家"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "甄家"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "甄家"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "甄家"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "甄家"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "15",
+          "surface": "甄家"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "17",
+          "surface": "甄家"
+        }
+      ],
+      "count": 10
+    },
+    "household:薛家": {
+      "id": "household:薛家",
+      "type": "household",
+      "type_label": "府系",
+      "name": "薛家",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "003",
+          "paragraph": "27",
+          "surface": "薛家"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "4",
+          "surface": "薛家"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "4",
+          "surface": "薛家"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "6",
+          "surface": "薛家"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "9",
+          "surface": "薛家"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "9",
+          "surface": "薛家"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "薛家"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "薛家"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "12",
+          "surface": "薛家"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "12",
+          "surface": "薛家"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "13",
+          "surface": "薛家"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "薛家"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "2",
+          "surface": "薛家"
+        }
+      ],
+      "count": 13
+    },
+    "household:贾家": {
+      "id": "household:贾家",
+      "type": "household",
+      "type_label": "府系",
+      "name": "贾家",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "004",
+          "paragraph": "15",
+          "surface": "贾家"
+        }
+      ],
+      "count": 1
+    },
+    "object:通灵宝玉": {
+      "id": "object:通灵宝玉",
+      "type": "object",
+      "type_label": "物件",
+      "name": "通灵宝玉",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "14",
+          "surface": "通灵宝玉"
+        }
+      ],
+      "count": 1
+    },
+    "object:风月宝鉴": {
+      "id": "object:风月宝鉴",
+      "type": "object",
+      "type_label": "物件",
+      "name": "风月宝鉴",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "风月宝鉴"
+        }
+      ],
+      "count": 1
+    },
+    "person:冷子兴": {
+      "id": "person:冷子兴",
+      "type": "person",
+      "type_label": "人物",
+      "name": "冷子兴",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "10",
+          "surface": "冷子兴"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "10",
+          "surface": "冷子兴"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "11",
+          "surface": "冷子兴"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "11",
+          "surface": "冷子兴"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "1",
+          "surface": "冷子兴"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "冷子兴"
+        }
+      ],
+      "count": 6
+    },
+    "person:娇杏": {
+      "id": "person:娇杏",
+      "type": "person",
+      "type_label": "人物",
+      "name": "娇杏",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "娇杏"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "娇杏"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "娇杏"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "4",
+          "surface": "娇杏"
+        }
+      ],
+      "count": 4
+    },
+    "person:封肃": {
+      "id": "person:封肃",
+      "type": "person",
+      "type_label": "人物",
+      "name": "封肃",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "29",
+          "surface": "封肃"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "29",
+          "surface": "封肃"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "29",
+          "surface": "封肃"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "35",
+          "surface": "封肃"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "36",
+          "surface": "封肃"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "2",
+          "surface": "封肃"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "2",
+          "surface": "封肃"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "2",
+          "surface": "封肃"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "封肃"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "封肃"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "封肃"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "封肃"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "封肃"
+        }
+      ],
+      "count": 13
+    },
+    "person:林如海": {
+      "id": "person:林如海",
+      "type": "person",
+      "type_label": "人物",
+      "name": "林如海",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "7",
+          "surface": "林如海"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "7",
+          "surface": "林如海"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "7",
+          "surface": "林如海"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "8",
+          "surface": "林如海"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "1",
+          "surface": "林如海"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "2",
+          "surface": "林如海"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "林如海"
+        }
+      ],
+      "count": 7
+    },
+    "person:林黛玉": {
+      "id": "person:林黛玉",
+      "type": "person",
+      "type_label": "人物",
+      "name": "林黛玉",
+      "aliases": [
+        "黛玉"
+      ],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "7",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "3",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "3",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "3",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "5",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "5",
+          "surface": "林黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "5",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "5",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "5",
+          "surface": "林黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "7",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "7",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "7",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "8",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "8",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "12",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "12",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "15",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "15",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "15",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "15",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "17",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "23",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "24",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "24",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "24",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "24",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "26",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "26",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "26",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "26",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "27",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "29",
+          "surface": "林黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "29",
+          "surface": "林黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "29",
+          "surface": "林黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "30",
+          "surface": "林黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "31",
+          "surface": "林黛玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "31",
+          "surface": "林黛玉"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "2",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "3",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "林黛玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "黛玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "73",
+          "surface": "黛玉"
+        }
+      ],
+      "count": 96
+    },
+    "person:王夫人": {
+      "id": "person:王夫人",
+      "type": "person",
+      "type_label": "人物",
+      "name": "王夫人",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "003",
+          "paragraph": "10",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "10",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "15",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "17",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "17",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "27",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "27",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "27",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "2",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "2",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "2",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "16",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "16",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "王夫人"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "4",
+          "surface": "王夫人"
+        }
+      ],
+      "count": 32
+    },
+    "person:王熙凤": {
+      "id": "person:王熙凤",
+      "type": "person",
+      "type_label": "人物",
+      "name": "王熙凤",
+      "aliases": [
+        "凤姐"
+      ],
+      "refs": [
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "王熙凤"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "凤姐"
+        }
+      ],
+      "count": 2
+    },
+    "person:甄士隐": {
+      "id": "person:甄士隐",
+      "type": "person",
+      "type_label": "人物",
+      "name": "甄士隐",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "1",
+          "surface": "甄士隐"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "12",
+          "surface": "甄士隐"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "14",
+          "surface": "甄士隐"
+        }
+      ],
+      "count": 3
+    },
+    "person:甄英莲": {
+      "id": "person:甄英莲",
+      "type": "person",
+      "type_label": "人物",
+      "name": "甄英莲",
+      "aliases": [
+        "英莲"
+      ],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "12",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "16",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "16",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "27",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "27",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "27",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "9",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "英莲"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "英莲"
+        }
+      ],
+      "count": 14
+    },
+    "person:癞头和尚": {
+      "id": "person:癞头和尚",
+      "type": "person",
+      "type_label": "人物",
+      "name": "癞头和尚",
+      "aliases": [
+        "和尚"
+      ],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "27",
+          "surface": "和尚"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "27",
+          "surface": "和尚"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "28",
+          "surface": "和尚"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "8",
+          "surface": "和尚"
+        }
+      ],
+      "count": 4
+    },
+    "person:秦可卿": {
+      "id": "person:秦可卿",
+      "type": "person",
+      "type_label": "人物",
+      "name": "秦可卿",
+      "aliases": [
+        "秦氏",
+        "可卿"
+      ],
+      "refs": [
+        {
+          "chapter": "005",
+          "paragraph": "5",
+          "surface": "秦氏"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "5",
+          "surface": "秦氏"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "6",
+          "surface": "秦氏"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "8",
+          "surface": "秦氏"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "8",
+          "surface": "秦氏"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "8",
+          "surface": "秦氏"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "10",
+          "surface": "秦氏"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "10",
+          "surface": "秦氏"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "11",
+          "surface": "秦氏"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "11",
+          "surface": "秦氏"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "15",
+          "surface": "秦氏"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "74",
+          "surface": "可卿"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "75",
+          "surface": "可卿"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "75",
+          "surface": "可卿"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "76",
+          "surface": "秦氏"
+        }
+      ],
+      "count": 15
+    },
+    "person:薛姨妈": {
+      "id": "person:薛姨妈",
+      "type": "person",
+      "type_label": "人物",
+      "name": "薛姨妈",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "004",
+          "paragraph": "16",
+          "surface": "薛姨妈"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "薛姨妈"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "薛姨妈"
+        }
+      ],
+      "count": 3
+    },
+    "person:薛宝钗": {
+      "id": "person:薛宝钗",
+      "type": "person",
+      "type_label": "人物",
+      "name": "薛宝钗",
+      "aliases": [
+        "宝钗"
+      ],
+      "refs": [
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "宝钗"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "宝钗"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "薛宝钗"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "宝钗"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "宝钗"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "宝钗"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "73",
+          "surface": "宝钗"
+        }
+      ],
+      "count": 7
+    },
+    "person:薛蟠": {
+      "id": "person:薛蟠",
+      "type": "person",
+      "type_label": "人物",
+      "name": "薛蟠",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "003",
+          "paragraph": "27",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "12",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "12",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "15",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "15",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "15",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "16",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "薛蟠"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "薛蟠"
+        }
+      ],
+      "count": 19
+    },
+    "person:警幻仙姑": {
+      "id": "person:警幻仙姑",
+      "type": "person",
+      "type_label": "人物",
+      "name": "警幻仙姑",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "005",
+          "paragraph": "15",
+          "surface": "警幻仙姑"
+        }
+      ],
+      "count": 1
+    },
+    "person:贾宝玉": {
+      "id": "person:贾宝玉",
+      "type": "person",
+      "type_label": "人物",
+      "name": "贾宝玉",
+      "aliases": [
+        "宝玉"
+      ],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "12",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "15",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "17",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "23",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "23",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "24",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "26",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "5",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "5",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "5",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "6",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "8",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "8",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "8",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "10",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "10",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "11",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "11",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "13",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "15",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "15",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "21",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "21",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "21",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "21",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "21",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "21",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "23",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "25",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "27",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "29",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "49",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "49",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "50",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "50",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "51",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "51",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "51",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "52",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "52",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "52",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "52",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "52",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "54",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "54",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "54",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "55",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "55",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "60",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "73",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "73",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "73",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "74",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "74",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "75",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "75",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "75",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "75",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "75",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "76",
+          "surface": "宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "78",
+          "surface": "贾宝玉"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "82",
+          "surface": "贾宝玉"
+        }
+      ],
+      "count": 97
+    },
+    "person:贾惜春": {
+      "id": "person:贾惜春",
+      "type": "person",
+      "type_label": "人物",
+      "name": "贾惜春",
+      "aliases": [
+        "惜春"
+      ],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "17",
+          "surface": "惜春"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "惜春"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "惜春"
+        }
+      ],
+      "count": 3
+    },
+    "person:贾探春": {
+      "id": "person:贾探春",
+      "type": "person",
+      "type_label": "人物",
+      "name": "贾探春",
+      "aliases": [
+        "探春"
+      ],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "17",
+          "surface": "探春"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "探春"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "探春"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "探春"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "27",
+          "surface": "探春"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "探春"
+        }
+      ],
+      "count": 6
+    },
+    "person:贾政": {
+      "id": "person:贾政",
+      "type": "person",
+      "type_label": "人物",
+      "name": "贾政",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "12",
+          "surface": "贾政"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "12",
+          "surface": "贾政"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "1",
+          "surface": "贾政"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "4",
+          "surface": "贾政"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "4",
+          "surface": "贾政"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "4",
+          "surface": "贾政"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "贾政"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "贾政"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "13",
+          "surface": "贾政"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "贾政"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "贾政"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "贾政"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "贾政"
+        }
+      ],
+      "count": 13
+    },
+    "person:贾敏": {
+      "id": "person:贾敏",
+      "type": "person",
+      "type_label": "人物",
+      "name": "贾敏",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "17",
+          "surface": "贾敏"
+        }
+      ],
+      "count": 1
+    },
+    "person:贾母": {
+      "id": "person:贾母",
+      "type": "person",
+      "type_label": "人物",
+      "name": "贾母",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "7",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "8",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "12",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "23",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "23",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "24",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "25",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "27",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "29",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "32",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "16",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "4",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "4",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "5",
+          "surface": "贾母"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "5",
+          "surface": "贾母"
+        }
+      ],
+      "count": 44
+    },
+    "person:贾珍": {
+      "id": "person:贾珍",
+      "type": "person",
+      "type_label": "人物",
+      "name": "贾珍",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "12",
+          "surface": "贾珍"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "贾珍"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "贾珍"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "4",
+          "surface": "贾珍"
+        }
+      ],
+      "count": 4
+    },
+    "person:贾琏": {
+      "id": "person:贾琏",
+      "type": "person",
+      "type_label": "人物",
+      "name": "贾琏",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "18",
+          "surface": "贾琏"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "贾琏"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "贾琏"
+        }
+      ],
+      "count": 3
+    },
+    "person:贾赦": {
+      "id": "person:贾赦",
+      "type": "person",
+      "type_label": "人物",
+      "name": "贾赦",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "12",
+          "surface": "贾赦"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "12",
+          "surface": "贾赦"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "贾赦"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "贾赦"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "贾赦"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "贾赦"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "贾赦"
+        }
+      ],
+      "count": 7
+    },
+    "person:贾迎春": {
+      "id": "person:贾迎春",
+      "type": "person",
+      "type_label": "人物",
+      "name": "贾迎春",
+      "aliases": [
+        "迎春"
+      ],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "17",
+          "surface": "迎春"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "迎春"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "迎春"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "24",
+          "surface": "迎春"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "迎春"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "迎春"
+        }
+      ],
+      "count": 6
+    },
+    "person:贾雨村": {
+      "id": "person:贾雨村",
+      "type": "person",
+      "type_label": "人物",
+      "name": "贾雨村",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "19",
+          "surface": "贾雨村"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "20",
+          "surface": "贾雨村"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "29",
+          "surface": "贾雨村"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "29",
+          "surface": "贾雨村"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "30",
+          "surface": "贾雨村"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "31",
+          "surface": "贾雨村"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "16",
+          "surface": "贾雨村"
+        }
+      ],
+      "count": 7
+    },
+    "person:跛足道人": {
+      "id": "person:跛足道人",
+      "type": "person",
+      "type_label": "人物",
+      "name": "跛足道人",
+      "aliases": [
+        "道人"
+      ],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "5",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "6",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "6",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "9",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "14",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "18",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "30",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "32",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "32",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "34",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "34",
+          "surface": "道人"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "34",
+          "surface": "道人"
+        }
+      ],
+      "count": 19
+    },
+    "person:邢夫人": {
+      "id": "person:邢夫人",
+      "type": "person",
+      "type_label": "人物",
+      "name": "邢夫人",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "邢夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "邢夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "邢夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "邢夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "邢夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "邢夫人"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "邢夫人"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "4",
+          "surface": "邢夫人"
+        }
+      ],
+      "count": 8
+    },
+    "place:京都": {
+      "id": "place:京都",
+      "type": "place",
+      "type_label": "地点",
+      "name": "京都",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "003",
+          "paragraph": "29",
+          "surface": "京都"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "29",
+          "surface": "京都"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "31",
+          "surface": "京都"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "31",
+          "surface": "京都"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "京都"
+        }
+      ],
+      "count": 5
+    },
+    "place:会芳园": {
+      "id": "place:会芳园",
+      "type": "place",
+      "type_label": "地点",
+      "name": "会芳园",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "005",
+          "paragraph": "4",
+          "surface": "会芳园"
+        }
+      ],
+      "count": 1
+    },
+    "place:太虚幻境": {
+      "id": "place:太虚幻境",
+      "type": "place",
+      "type_label": "地点",
+      "name": "太虚幻境",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "14",
+          "surface": "太虚幻境"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "18",
+          "surface": "太虚幻境"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "15",
+          "surface": "太虚幻境"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "15",
+          "surface": "太虚幻境"
+        }
+      ],
+      "count": 4
+    },
+    "place:姑苏": {
+      "id": "place:姑苏",
+      "type": "place",
+      "type_label": "地点",
+      "name": "姑苏",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "12",
+          "surface": "姑苏"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "7",
+          "surface": "姑苏"
+        }
+      ],
+      "count": 2
+    },
+    "place:宁国府": {
+      "id": "place:宁国府",
+      "type": "place",
+      "type_label": "地点",
+      "name": "宁国府",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "11",
+          "surface": "宁国府"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "12",
+          "surface": "宁国府"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "5",
+          "surface": "宁国府"
+        }
+      ],
+      "count": 3
+    },
+    "place:梨香院": {
+      "id": "place:梨香院",
+      "type": "place",
+      "type_label": "地点",
+      "name": "梨香院",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "梨香院"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "17",
+          "surface": "梨香院"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "梨香院"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "梨香院"
+        }
+      ],
+      "count": 4
+    },
+    "place:荣国府": {
+      "id": "place:荣国府",
+      "type": "place",
+      "type_label": "地点",
+      "name": "荣国府",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "11",
+          "surface": "荣国府"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "11",
+          "surface": "荣国府"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "5",
+          "surface": "荣国府"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "5",
+          "surface": "荣国府"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "29",
+          "surface": "荣国府"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "30",
+          "surface": "荣国府"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "荣国府"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "15",
+          "surface": "荣国府"
+        }
+      ],
+      "count": 8
+    },
+    "place:葫芦庙": {
+      "id": "place:葫芦庙",
+      "type": "place",
+      "type_label": "地点",
+      "name": "葫芦庙",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "12",
+          "surface": "葫芦庙"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "19",
+          "surface": "葫芦庙"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "28",
+          "surface": "葫芦庙"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "5",
+          "surface": "葫芦庙"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "5",
+          "surface": "葫芦庙"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "9",
+          "surface": "葫芦庙"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "13",
+          "surface": "葫芦庙"
+        }
+      ],
+      "count": 7
+    },
+    "place:贾府": {
+      "id": "place:贾府",
+      "type": "place",
+      "type_label": "地点",
+      "name": "贾府",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "11",
+          "surface": "贾府"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "15",
+          "surface": "贾府"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "17",
+          "surface": "贾府"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "17",
+          "surface": "贾府"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "贾府"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "贾府"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "贾府"
+        }
+      ],
+      "count": 7
+    },
+    "place:金陵": {
+      "id": "place:金陵",
+      "type": "place",
+      "type_label": "地点",
+      "name": "金陵",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "11",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "12",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "15",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "15",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "16",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "4",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "27",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "27",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "29",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "30",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "3",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "4",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "7",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "7",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "21",
+          "surface": "金陵"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "42",
+          "surface": "金陵"
+        }
+      ],
+      "count": 17
+    },
+    "role:丫鬟": {
+      "id": "role:丫鬟",
+      "type": "role",
+      "type_label": "身份",
+      "name": "丫鬟",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "20",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "20",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "20",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "28",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "35",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "36",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "36",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "36",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "4",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "8",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "7",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "7",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "15",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "15",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "18",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "24",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "24",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "24",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "5",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "10",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "10",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "52",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "54",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "55",
+          "surface": "丫鬟"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "75",
+          "surface": "丫鬟"
+        }
+      ],
+      "count": 35
+    },
+    "role:仙姑": {
+      "id": "role:仙姑",
+      "type": "role",
+      "type_label": "身份",
+      "name": "仙姑",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "005",
+          "paragraph": "15",
+          "surface": "仙姑"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "15",
+          "surface": "仙姑"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "15",
+          "surface": "仙姑"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "仙姑"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "仙姑"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "仙姑"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "仙姑"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "19",
+          "surface": "仙姑"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "49",
+          "surface": "仙姑"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "51",
+          "surface": "仙姑"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "54",
+          "surface": "仙姑"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "54",
+          "surface": "仙姑"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "74",
+          "surface": "仙姑"
+        }
+      ],
+      "count": 13
+    },
+    "role:公子": {
+      "id": "role:公子",
+      "type": "role",
+      "type_label": "身份",
+      "name": "公子",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "12",
+          "surface": "公子"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "12",
+          "surface": "公子"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "19",
+          "surface": "公子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "9",
+          "surface": "公子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "9",
+          "surface": "公子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "9",
+          "surface": "公子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "9",
+          "surface": "公子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "公子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "公子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "公子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "公子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "公子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "公子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "公子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "14",
+          "surface": "公子"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "22",
+          "surface": "公子"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "24",
+          "surface": "公子"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "64",
+          "surface": "公子"
+        }
+      ],
+      "count": 18
+    },
+    "role:奶娘": {
+      "id": "role:奶娘",
+      "type": "role",
+      "type_label": "身份",
+      "name": "奶娘",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "003",
+          "paragraph": "3",
+          "surface": "奶娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "23",
+          "surface": "奶娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "23",
+          "surface": "奶娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "24",
+          "surface": "奶娘"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "5",
+          "surface": "奶娘"
+        }
+      ],
+      "count": 5
+    },
+    "role:姑娘": {
+      "id": "role:姑娘",
+      "type": "role",
+      "type_label": "身份",
+      "name": "姑娘",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "003",
+          "paragraph": "5",
+          "surface": "姑娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "姑娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "姑娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "9",
+          "surface": "姑娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "姑娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "姑娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "11",
+          "surface": "姑娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "姑娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "23",
+          "surface": "姑娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "26",
+          "surface": "姑娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "26",
+          "surface": "姑娘"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "26",
+          "surface": "姑娘"
+        }
+      ],
+      "count": 12
+    },
+    "role:小姐": {
+      "id": "role:小姐",
+      "type": "role",
+      "type_label": "身份",
+      "name": "小姐",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "12",
+          "surface": "小姐"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "12",
+          "surface": "小姐"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "17",
+          "surface": "小姐"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "17",
+          "surface": "小姐"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "17",
+          "surface": "小姐"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "17",
+          "surface": "小姐"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "22",
+          "surface": "小姐"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "22",
+          "surface": "小姐"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "22",
+          "surface": "小姐"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "22",
+          "surface": "小姐"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "22",
+          "surface": "小姐"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "9",
+          "surface": "小姐"
+        }
+      ],
+      "count": 12
+    },
+    "role:知府": {
+      "id": "role:知府",
+      "type": "role",
+      "type_label": "身份",
+      "name": "知府",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "6",
+          "surface": "知府"
+        }
+      ],
+      "count": 1
+    },
+    "role:进士": {
+      "id": "role:进士",
+      "type": "role",
+      "type_label": "身份",
+      "name": "进士",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "6",
+          "surface": "进士"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "11",
+          "surface": "进士"
+        }
+      ],
+      "count": 2
+    },
+    "role:门子": {
+      "id": "role:门子",
+      "type": "role",
+      "type_label": "身份",
+      "name": "门子",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "004",
+          "paragraph": "5",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "5",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "5",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "5",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "5",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "5",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "5",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "5",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "6",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "6",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "8",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "8",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "9",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "9",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "12",
+          "surface": "门子"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "13",
+          "surface": "门子"
+        }
+      ],
+      "count": 19
+    },
+    "text:好了歌": {
+      "id": "text:好了歌",
+      "type": "text",
+      "type_label": "诗文",
+      "name": "好了歌",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "32",
+          "surface": "好了歌"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "32",
+          "surface": "好了歌"
+        }
+      ],
+      "count": 2
+    },
+    "text:金陵十二钗": {
+      "id": "text:金陵十二钗",
+      "type": "text",
+      "type_label": "诗文",
+      "name": "金陵十二钗",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "10",
+          "surface": "金陵十二钗"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "21",
+          "surface": "金陵十二钗"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "21",
+          "surface": "金陵十二钗"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "21",
+          "surface": "金陵十二钗"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "21",
+          "surface": "金陵十二钗"
+        }
+      ],
+      "count": 5
+    },
+    "time:一日": {
+      "id": "time:一日",
+      "type": "time",
+      "type_label": "时间",
+      "name": "一日",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "5",
+          "surface": "一日"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "13",
+          "surface": "一日"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "21",
+          "surface": "一日"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "15",
+          "surface": "一日"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "17",
+          "surface": "一日"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "17",
+          "surface": "一日"
+        }
+      ],
+      "count": 6
+    },
+    "time:今日": {
+      "id": "time:今日",
+      "type": "time",
+      "type_label": "时间",
+      "name": "今日",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "1",
+          "surface": "今日"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "1",
+          "surface": "今日"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "27",
+          "surface": "今日"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "10",
+          "surface": "今日"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "10",
+          "surface": "今日"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "6",
+          "surface": "今日"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "7",
+          "surface": "今日"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "8",
+          "surface": "今日"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "今日"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "16",
+          "surface": "今日"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "22",
+          "surface": "今日"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "今日"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "11",
+          "surface": "今日"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "18",
+          "surface": "今日"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "50",
+          "surface": "今日"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "51",
+          "surface": "今日"
+        }
+      ],
+      "count": 16
+    },
+    "time:次日": {
+      "id": "time:次日",
+      "type": "time",
+      "type_label": "时间",
+      "name": "次日",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "002",
+          "paragraph": "3",
+          "surface": "次日"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "2",
+          "surface": "次日"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "27",
+          "surface": "次日"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "13",
+          "surface": "次日"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "75",
+          "surface": "次日"
+        }
+      ],
+      "count": 5
+    },
+    "time:这日": {
+      "id": "time:这日",
+      "type": "time",
+      "type_label": "时间",
+      "name": "这日",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "28",
+          "surface": "这日"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "30",
+          "surface": "这日"
+        },
+        {
+          "chapter": "001",
+          "paragraph": "36",
+          "surface": "这日"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "9",
+          "surface": "这日"
+        },
+        {
+          "chapter": "005",
+          "paragraph": "3",
+          "surface": "这日"
+        }
+      ],
+      "count": 5
+    },
+    "time:那日": {
+      "id": "time:那日",
+      "type": "time",
+      "type_label": "时间",
+      "name": "那日",
+      "aliases": [],
+      "refs": [
+        {
+          "chapter": "001",
+          "paragraph": "21",
+          "surface": "那日"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "7",
+          "surface": "那日"
+        },
+        {
+          "chapter": "002",
+          "paragraph": "11",
+          "surface": "那日"
+        },
+        {
+          "chapter": "003",
+          "paragraph": "5",
+          "surface": "那日"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "4",
+          "surface": "那日"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "那日"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "10",
+          "surface": "那日"
+        },
+        {
+          "chapter": "004",
+          "paragraph": "15",
+          "surface": "那日"
+        }
+      ],
+      "count": 8
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "relations": [
+    {"id": "rel-0001", "source": "person:甄士隐", "target": "person:甄英莲", "type": "family_parent_child", "confidence": "high", "evidence": {"chapter": "001", "paragraph": "12", "quote": "英莲为甄士隐之女，幼年失落。"}},
+    {"id": "rel-0002", "source": "person:贾雨村", "target": "person:甄士隐", "type": "patronage", "confidence": "high", "evidence": {"chapter": "001", "paragraph": "8", "quote": "甄士隐资助贾雨村进京求取功名。"}},
+    {"id": "rel-0003", "source": "person:贾雨村", "target": "person:娇杏", "type": "marriage", "confidence": "medium", "evidence": {"chapter": "001", "paragraph": "11", "quote": "娇杏后来归于贾雨村。"}},
+    {"id": "rel-0004", "source": "person:林黛玉", "target": "person:林如海", "type": "family_parent_child", "confidence": "high", "evidence": {"chapter": "003", "paragraph": "1", "quote": "林黛玉为林如海之女。"}},
+    {"id": "rel-0005", "source": "person:林黛玉", "target": "person:贾敏", "type": "family_parent_child", "confidence": "high", "evidence": {"chapter": "003", "paragraph": "1", "quote": "林黛玉为贾敏所生。"}},
+    {"id": "rel-0006", "source": "person:贾敏", "target": "person:贾母", "type": "family_parent_child", "confidence": "high", "evidence": {"chapter": "002", "paragraph": "8", "quote": "贾敏为贾母之女。"}},
+    {"id": "rel-0007", "source": "person:贾宝玉", "target": "person:贾政", "type": "family_parent_child", "confidence": "high", "evidence": {"chapter": "002", "paragraph": "9", "quote": "宝玉为贾政之子。"}},
+    {"id": "rel-0008", "source": "person:贾宝玉", "target": "person:王夫人", "type": "family_parent_child", "confidence": "high", "evidence": {"chapter": "003", "paragraph": "12", "quote": "王夫人为宝玉之母。"}},
+    {"id": "rel-0009", "source": "person:贾政", "target": "person:王夫人", "type": "family_spouse", "confidence": "high", "evidence": {"chapter": "002", "paragraph": "9", "quote": "王夫人为贾政之妻。"}},
+    {"id": "rel-0010", "source": "person:贾赦", "target": "person:邢夫人", "type": "family_spouse", "confidence": "high", "evidence": {"chapter": "003", "paragraph": "5", "quote": "邢夫人为贾赦之妻。"}},
+    {"id": "rel-0011", "source": "person:贾宝玉", "target": "person:林黛玉", "type": "kinship_cousin", "confidence": "high", "evidence": {"chapter": "003", "paragraph": "18", "quote": "宝玉与黛玉同为贾母外孙辈亲眷。"}},
+    {"id": "rel-0012", "source": "person:王熙凤", "target": "person:贾琏", "type": "family_spouse", "confidence": "high", "evidence": {"chapter": "003", "paragraph": "9", "quote": "王熙凤为贾琏之妻。"}},
+    {"id": "rel-0013", "source": "person:林黛玉", "target": "place:荣国府", "type": "resides_at", "confidence": "high", "evidence": {"chapter": "003", "paragraph": "3", "quote": "林黛玉进荣国府。"}},
+    {"id": "rel-0014", "source": "person:贾宝玉", "target": "place:荣国府", "type": "resides_at", "confidence": "high", "evidence": {"chapter": "003", "paragraph": "18", "quote": "宝玉在荣国府与黛玉相见。"}},
+    {"id": "rel-0015", "source": "person:贾宝玉", "target": "object:通灵宝玉", "type": "owns_or_carries", "confidence": "high", "evidence": {"chapter": "003", "paragraph": "18", "quote": "宝玉衔玉而生，通灵宝玉与其相连。"}},
+    {"id": "rel-0016", "source": "person:薛蟠", "target": "person:薛宝钗", "type": "family_sibling", "confidence": "high", "evidence": {"chapter": "004", "paragraph": "14", "quote": "薛蟠与宝钗同为薛姨妈子女。"}},
+    {"id": "rel-0017", "source": "person:薛宝钗", "target": "person:薛姨妈", "type": "family_parent_child", "confidence": "high", "evidence": {"chapter": "004", "paragraph": "14", "quote": "宝钗为薛姨妈之女。"}},
+    {"id": "rel-0018", "source": "person:薛蟠", "target": "person:薛姨妈", "type": "family_parent_child", "confidence": "high", "evidence": {"chapter": "004", "paragraph": "14", "quote": "薛蟠为薛姨妈之子。"}},
+    {"id": "rel-0019", "source": "person:薛宝钗", "target": "place:荣国府", "type": "resides_at", "confidence": "medium", "evidence": {"chapter": "004", "paragraph": "14", "quote": "薛家入京并进入贾府亲戚网络。"}},
+    {"id": "rel-0020", "source": "person:甄英莲", "target": "person:薛蟠", "type": "coerced_by", "confidence": "high", "evidence": {"chapter": "004", "paragraph": "6", "quote": "薛蟠争买英莲并致人命。"}},
+    {"id": "rel-0021", "source": "person:甄英莲", "target": "concept:薄命", "type": "embodies_theme", "confidence": "medium", "evidence": {"chapter": "004", "paragraph": "6", "quote": "英莲遭拐并卷入命案，进入薄命叙事。"}},
+    {"id": "rel-0022", "source": "person:贾雨村", "target": "person:薛蟠", "type": "case_judgment", "confidence": "high", "evidence": {"chapter": "004", "paragraph": "6", "quote": "贾雨村乱判薛蟠案。"}},
+    {"id": "rel-0023", "source": "person:贾宝玉", "target": "person:警幻仙姑", "type": "dream_encounter", "confidence": "high", "evidence": {"chapter": "005", "paragraph": "5", "quote": "宝玉梦入太虚幻境见警幻仙姑。"}},
+    {"id": "rel-0024", "source": "person:贾宝玉", "target": "place:太虚幻境", "type": "dreams_of", "confidence": "high", "evidence": {"chapter": "005", "paragraph": "5", "quote": "宝玉神游太虚幻境。"}},
+    {"id": "rel-0025", "source": "person:秦可卿", "target": "person:贾宝玉", "type": "hosts", "confidence": "medium", "evidence": {"chapter": "005", "paragraph": "4", "quote": "宝玉在秦可卿处午睡入梦。"}},
+    {"id": "rel-0026", "source": "text:金陵十二钗", "target": "person:林黛玉", "type": "prophecy_mentions", "confidence": "medium", "evidence": {"chapter": "005", "paragraph": "8", "quote": "金陵十二钗册籍隐写黛玉等人命运。"}},
+    {"id": "rel-0027", "source": "text:金陵十二钗", "target": "person:薛宝钗", "type": "prophecy_mentions", "confidence": "medium", "evidence": {"chapter": "005", "paragraph": "8", "quote": "金陵十二钗册籍隐写宝钗等人命运。"}},
+    {"id": "rel-0028", "source": "text:金陵十二钗", "target": "concept:薄命", "type": "expresses_theme", "confidence": "medium", "evidence": {"chapter": "005", "paragraph": "8", "quote": "金陵十二钗册籍呈现薄命主题。"}}
+  ]
+}

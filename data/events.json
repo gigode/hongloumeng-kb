@@ -1,0 +1,114 @@
+{
+  "events": [
+    {
+      "id": "event-001-001",
+      "name": "甄士隐梦幻识通灵",
+      "type": "dream_frame",
+      "chapter": "001",
+      "paragraphs": ["2"],
+      "participants": ["person:甄士隐", "person:癞头和尚", "person:跛足道人"],
+      "objects": ["object:通灵宝玉"],
+      "places": [],
+      "summary": "甄士隐梦中见一僧一道携通灵宝玉，引出全书梦幻框架。"
+    },
+    {
+      "id": "event-001-002",
+      "name": "贾雨村风尘怀闺秀",
+      "type": "encounter",
+      "chapter": "001",
+      "paragraphs": ["8"],
+      "participants": ["person:贾雨村", "person:娇杏", "person:甄士隐"],
+      "objects": [],
+      "places": ["place:葫芦庙"],
+      "summary": "贾雨村寄居葫芦庙，因甄士隐相助与娇杏一顾留下后续线索。"
+    },
+    {
+      "id": "event-001-003",
+      "name": "英莲被拐",
+      "type": "loss",
+      "chapter": "001",
+      "paragraphs": ["12"],
+      "participants": ["person:甄英莲", "person:甄士隐"],
+      "objects": [],
+      "places": [],
+      "summary": "甄英莲幼年被拐，开启薄命线索。"
+    },
+    {
+      "id": "event-002-001",
+      "name": "冷子兴演说荣国府",
+      "type": "family_introduction",
+      "chapter": "002",
+      "paragraphs": ["6"],
+      "participants": ["person:冷子兴", "person:贾雨村", "person:贾政", "person:贾赦", "person:贾母"],
+      "objects": [],
+      "places": ["place:荣国府", "place:宁国府"],
+      "summary": "冷子兴向贾雨村介绍贾府世系和荣宁二府格局。"
+    },
+    {
+      "id": "event-003-001",
+      "name": "林黛玉进荣国府",
+      "type": "arrival",
+      "chapter": "003",
+      "paragraphs": ["3"],
+      "participants": ["person:林黛玉", "person:贾母", "person:王熙凤", "person:贾宝玉"],
+      "objects": [],
+      "places": ["place:荣国府"],
+      "summary": "林黛玉入京进荣国府，拜见贾母并初见贾府众人。"
+    },
+    {
+      "id": "event-003-002",
+      "name": "宝黛初会",
+      "type": "encounter",
+      "chapter": "003",
+      "paragraphs": ["18"],
+      "participants": ["person:贾宝玉", "person:林黛玉", "person:贾母"],
+      "objects": ["object:通灵宝玉"],
+      "places": ["place:荣国府"],
+      "summary": "贾宝玉与林黛玉初见，围绕通灵宝玉显出二人的特殊牵连。"
+    },
+    {
+      "id": "event-004-001",
+      "name": "葫芦僧乱判葫芦案",
+      "type": "case_judgment",
+      "chapter": "004",
+      "paragraphs": ["6"],
+      "participants": ["person:贾雨村", "person:薛蟠", "person:甄英莲"],
+      "objects": [],
+      "places": ["place:金陵"],
+      "summary": "贾雨村审理薛蟠夺英莲案，在门子提示下乱判葫芦案。"
+    },
+    {
+      "id": "event-004-002",
+      "name": "薛家入京",
+      "type": "arrival",
+      "chapter": "004",
+      "paragraphs": ["14"],
+      "participants": ["person:薛姨妈", "person:薛宝钗", "person:薛蟠"],
+      "objects": [],
+      "places": ["place:京都", "place:荣国府"],
+      "summary": "薛家因入京待选和亲戚关系进入贾府叙事。"
+    },
+    {
+      "id": "event-005-001",
+      "name": "宝玉神游太虚幻境",
+      "type": "dream_frame",
+      "chapter": "005",
+      "paragraphs": ["5"],
+      "participants": ["person:贾宝玉", "person:秦可卿", "person:警幻仙姑"],
+      "objects": [],
+      "places": ["place:太虚幻境"],
+      "summary": "贾宝玉梦游太虚幻境，见金陵十二钗册籍与红楼梦曲。"
+    },
+    {
+      "id": "event-005-002",
+      "name": "金陵十二钗判词显影",
+      "type": "prophecy",
+      "chapter": "005",
+      "paragraphs": ["8"],
+      "participants": ["person:贾宝玉", "person:警幻仙姑"],
+      "objects": [],
+      "places": ["place:太虚幻境"],
+      "summary": "宝玉在太虚幻境中见金陵十二钗册籍和判词，形成后文命运索引。"
+    }
+  ]
+}

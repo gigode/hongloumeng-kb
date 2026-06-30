@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>前五回关系图</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../index.html">红楼梦知识图谱</a>
+    <nav><a class="" href="../index.html">总览</a>
+<a class="" href="../chapters/001.html">阅读</a>
+<a class="" href="../entities/person.html">实体</a>
+<a class="active" href="../graph/index.html">图谱</a>
+<a class="" href="../plans/2026-06-30-hongloumeng-kb.html">计划</a></nav>
+  </header>
+  
+<main class="graph-shell">
+  <section class="graph-panel">
+    <p class="eyebrow">Graph Explorer</p>
+    <h1>前五回关系图</h1>
+    <div class="controls">
+      <input id="graph-search" type="search" placeholder="搜索人物、地点、事件">
+      <select id="graph-filter"><option value="">全部关系</option></select>
+    </div>
+    <div id="graph-details" class="details">点击节点或边查看证据。</div>
+  </section>
+  <section class="graph-stage">
+    <svg id="graph-svg" role="img" aria-label="红楼梦知识图谱"></svg>
+  </section>
+</main>
+<script src="graph.js"></script>
+
+  <script>
+    const toggle = document.querySelector('[data-highlight-toggle]');
+    if (toggle) {
+      const saved = localStorage.getItem('hlm-highlight') !== 'off';
+      document.body.classList.toggle('no-highlight', !saved);
+      toggle.checked = saved;
+      toggle.addEventListener('change', () => {
+        document.body.classList.toggle('no-highlight', !toggle.checked);
+        localStorage.setItem('hlm-highlight', toggle.checked ? 'on' : 'off');
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>物件索引</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../index.html">红楼梦知识图谱</a>
+    <nav><a class="" href="../index.html">总览</a>
+<a class="" href="../chapters/001.html">阅读</a>
+<a class="active" href="../entities/person.html">实体</a>
+<a class="" href="../graph/index.html">图谱</a>
+<a class="" href="../plans/2026-06-30-hongloumeng-kb.html">计划</a></nav>
+  </header>
+  
+<main class="workbench">
+  <section class="section-head">
+    <p class="eyebrow">实体索引</p>
+    <h1>物件</h1>
+    <p>2 个条目，按出现次数排序。点击引用可回到对应段落。</p>
+  </section>
+  <div class="table-wrap"><table><thead><tr><th>实体</th><th>次数</th><th>引用</th></tr></thead><tbody><tr id="通灵宝玉"><td><strong>通灵宝玉</strong><div class="muted">—</div></td><td>1</td><td><a href="../chapters/001.html#p-14">001 [14]</a></td></tr><tr id="风月宝鉴"><td><strong>风月宝鉴</strong><div class="muted">—</div></td><td>1</td><td><a href="../chapters/001.html#p-10">001 [10]</a></td></tr></tbody></table></div>
+</main>
+
+  <script>
+    const toggle = document.querySelector('[data-highlight-toggle]');
+    if (toggle) {
+      const saved = localStorage.getItem('hlm-highlight') !== 'off';
+      document.body.classList.toggle('no-highlight', !saved);
+      toggle.checked = saved;
+      toggle.addEventListener('change', () => {
+        document.body.classList.toggle('no-highlight', !toggle.checked);
+        localStorage.setItem('hlm-highlight', toggle.checked ? 'on' : 'off');
+      });
+    }
+  </script>
+</body>
+</html>

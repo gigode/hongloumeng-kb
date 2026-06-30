@@ -1,0 +1,1077 @@
+{
+  "nodes": [
+    {
+      "id": "concept:情",
+      "label": "情",
+      "type": "concept",
+      "count": 86
+    },
+    {
+      "id": "concept:梦",
+      "label": "梦",
+      "type": "concept",
+      "count": 34
+    },
+    {
+      "id": "concept:梦幻",
+      "label": "梦幻",
+      "type": "concept",
+      "count": 3
+    },
+    {
+      "id": "concept:空",
+      "label": "空",
+      "type": "concept",
+      "count": 29
+    },
+    {
+      "id": "concept:色",
+      "label": "色",
+      "type": "concept",
+      "count": 28
+    },
+    {
+      "id": "concept:薄命",
+      "label": "薄命",
+      "type": "concept",
+      "count": 2
+    },
+    {
+      "id": "concept:风月",
+      "label": "风月",
+      "type": "concept",
+      "count": 7
+    },
+    {
+      "id": "household:林家",
+      "label": "林家",
+      "type": "household",
+      "count": 2
+    },
+    {
+      "id": "household:甄家",
+      "label": "甄家",
+      "type": "household",
+      "count": 10
+    },
+    {
+      "id": "household:薛家",
+      "label": "薛家",
+      "type": "household",
+      "count": 13
+    },
+    {
+      "id": "household:贾家",
+      "label": "贾家",
+      "type": "household",
+      "count": 1
+    },
+    {
+      "id": "object:通灵宝玉",
+      "label": "通灵宝玉",
+      "type": "object",
+      "count": 1
+    },
+    {
+      "id": "object:风月宝鉴",
+      "label": "风月宝鉴",
+      "type": "object",
+      "count": 1
+    },
+    {
+      "id": "person:冷子兴",
+      "label": "冷子兴",
+      "type": "person",
+      "count": 6
+    },
+    {
+      "id": "person:娇杏",
+      "label": "娇杏",
+      "type": "person",
+      "count": 4
+    },
+    {
+      "id": "person:封肃",
+      "label": "封肃",
+      "type": "person",
+      "count": 13
+    },
+    {
+      "id": "person:林如海",
+      "label": "林如海",
+      "type": "person",
+      "count": 7
+    },
+    {
+      "id": "person:林黛玉",
+      "label": "林黛玉",
+      "type": "person",
+      "count": 96
+    },
+    {
+      "id": "person:王夫人",
+      "label": "王夫人",
+      "type": "person",
+      "count": 32
+    },
+    {
+      "id": "person:王熙凤",
+      "label": "王熙凤",
+      "type": "person",
+      "count": 2
+    },
+    {
+      "id": "person:甄士隐",
+      "label": "甄士隐",
+      "type": "person",
+      "count": 3
+    },
+    {
+      "id": "person:甄英莲",
+      "label": "甄英莲",
+      "type": "person",
+      "count": 14
+    },
+    {
+      "id": "person:癞头和尚",
+      "label": "癞头和尚",
+      "type": "person",
+      "count": 4
+    },
+    {
+      "id": "person:秦可卿",
+      "label": "秦可卿",
+      "type": "person",
+      "count": 15
+    },
+    {
+      "id": "person:薛姨妈",
+      "label": "薛姨妈",
+      "type": "person",
+      "count": 3
+    },
+    {
+      "id": "person:薛宝钗",
+      "label": "薛宝钗",
+      "type": "person",
+      "count": 7
+    },
+    {
+      "id": "person:薛蟠",
+      "label": "薛蟠",
+      "type": "person",
+      "count": 19
+    },
+    {
+      "id": "person:警幻仙姑",
+      "label": "警幻仙姑",
+      "type": "person",
+      "count": 1
+    },
+    {
+      "id": "person:贾宝玉",
+      "label": "贾宝玉",
+      "type": "person",
+      "count": 97
+    },
+    {
+      "id": "person:贾惜春",
+      "label": "贾惜春",
+      "type": "person",
+      "count": 3
+    },
+    {
+      "id": "person:贾探春",
+      "label": "贾探春",
+      "type": "person",
+      "count": 6
+    },
+    {
+      "id": "person:贾政",
+      "label": "贾政",
+      "type": "person",
+      "count": 13
+    },
+    {
+      "id": "person:贾敏",
+      "label": "贾敏",
+      "type": "person",
+      "count": 1
+    },
+    {
+      "id": "person:贾母",
+      "label": "贾母",
+      "type": "person",
+      "count": 44
+    },
+    {
+      "id": "person:贾珍",
+      "label": "贾珍",
+      "type": "person",
+      "count": 4
+    },
+    {
+      "id": "person:贾琏",
+      "label": "贾琏",
+      "type": "person",
+      "count": 3
+    },
+    {
+      "id": "person:贾赦",
+      "label": "贾赦",
+      "type": "person",
+      "count": 7
+    },
+    {
+      "id": "person:贾迎春",
+      "label": "贾迎春",
+      "type": "person",
+      "count": 6
+    },
+    {
+      "id": "person:贾雨村",
+      "label": "贾雨村",
+      "type": "person",
+      "count": 7
+    },
+    {
+      "id": "person:跛足道人",
+      "label": "跛足道人",
+      "type": "person",
+      "count": 19
+    },
+    {
+      "id": "person:邢夫人",
+      "label": "邢夫人",
+      "type": "person",
+      "count": 8
+    },
+    {
+      "id": "place:京都",
+      "label": "京都",
+      "type": "place",
+      "count": 5
+    },
+    {
+      "id": "place:会芳园",
+      "label": "会芳园",
+      "type": "place",
+      "count": 1
+    },
+    {
+      "id": "place:太虚幻境",
+      "label": "太虚幻境",
+      "type": "place",
+      "count": 4
+    },
+    {
+      "id": "place:姑苏",
+      "label": "姑苏",
+      "type": "place",
+      "count": 2
+    },
+    {
+      "id": "place:宁国府",
+      "label": "宁国府",
+      "type": "place",
+      "count": 3
+    },
+    {
+      "id": "place:梨香院",
+      "label": "梨香院",
+      "type": "place",
+      "count": 4
+    },
+    {
+      "id": "place:荣国府",
+      "label": "荣国府",
+      "type": "place",
+      "count": 8
+    },
+    {
+      "id": "place:葫芦庙",
+      "label": "葫芦庙",
+      "type": "place",
+      "count": 7
+    },
+    {
+      "id": "place:贾府",
+      "label": "贾府",
+      "type": "place",
+      "count": 7
+    },
+    {
+      "id": "place:金陵",
+      "label": "金陵",
+      "type": "place",
+      "count": 17
+    },
+    {
+      "id": "role:丫鬟",
+      "label": "丫鬟",
+      "type": "role",
+      "count": 35
+    },
+    {
+      "id": "role:仙姑",
+      "label": "仙姑",
+      "type": "role",
+      "count": 13
+    },
+    {
+      "id": "role:公子",
+      "label": "公子",
+      "type": "role",
+      "count": 18
+    },
+    {
+      "id": "role:奶娘",
+      "label": "奶娘",
+      "type": "role",
+      "count": 5
+    },
+    {
+      "id": "role:姑娘",
+      "label": "姑娘",
+      "type": "role",
+      "count": 12
+    },
+    {
+      "id": "role:小姐",
+      "label": "小姐",
+      "type": "role",
+      "count": 12
+    },
+    {
+      "id": "role:知府",
+      "label": "知府",
+      "type": "role",
+      "count": 1
+    },
+    {
+      "id": "role:进士",
+      "label": "进士",
+      "type": "role",
+      "count": 2
+    },
+    {
+      "id": "role:门子",
+      "label": "门子",
+      "type": "role",
+      "count": 19
+    },
+    {
+      "id": "text:好了歌",
+      "label": "好了歌",
+      "type": "text",
+      "count": 2
+    },
+    {
+      "id": "text:金陵十二钗",
+      "label": "金陵十二钗",
+      "type": "text",
+      "count": 5
+    },
+    {
+      "id": "event-001-001",
+      "label": "甄士隐梦幻识通灵",
+      "type": "event",
+      "chapter": "001"
+    },
+    {
+      "id": "event-001-002",
+      "label": "贾雨村风尘怀闺秀",
+      "type": "event",
+      "chapter": "001"
+    },
+    {
+      "id": "event-001-003",
+      "label": "英莲被拐",
+      "type": "event",
+      "chapter": "001"
+    },
+    {
+      "id": "event-002-001",
+      "label": "冷子兴演说荣国府",
+      "type": "event",
+      "chapter": "002"
+    },
+    {
+      "id": "event-003-001",
+      "label": "林黛玉进荣国府",
+      "type": "event",
+      "chapter": "003"
+    },
+    {
+      "id": "event-003-002",
+      "label": "宝黛初会",
+      "type": "event",
+      "chapter": "003"
+    },
+    {
+      "id": "event-004-001",
+      "label": "葫芦僧乱判葫芦案",
+      "type": "event",
+      "chapter": "004"
+    },
+    {
+      "id": "event-004-002",
+      "label": "薛家入京",
+      "type": "event",
+      "chapter": "004"
+    },
+    {
+      "id": "event-005-001",
+      "label": "宝玉神游太虚幻境",
+      "type": "event",
+      "chapter": "005"
+    },
+    {
+      "id": "event-005-002",
+      "label": "金陵十二钗判词显影",
+      "type": "event",
+      "chapter": "005"
+    }
+  ],
+  "edges": [
+    {
+      "id": "rel-0001",
+      "source": "person:甄士隐",
+      "target": "person:甄英莲",
+      "type": "family_parent_child",
+      "confidence": "high",
+      "chapter": "001",
+      "quote": "英莲为甄士隐之女，幼年失落。"
+    },
+    {
+      "id": "rel-0002",
+      "source": "person:贾雨村",
+      "target": "person:甄士隐",
+      "type": "patronage",
+      "confidence": "high",
+      "chapter": "001",
+      "quote": "甄士隐资助贾雨村进京求取功名。"
+    },
+    {
+      "id": "rel-0003",
+      "source": "person:贾雨村",
+      "target": "person:娇杏",
+      "type": "marriage",
+      "confidence": "medium",
+      "chapter": "001",
+      "quote": "娇杏后来归于贾雨村。"
+    },
+    {
+      "id": "rel-0004",
+      "source": "person:林黛玉",
+      "target": "person:林如海",
+      "type": "family_parent_child",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "林黛玉为林如海之女。"
+    },
+    {
+      "id": "rel-0005",
+      "source": "person:林黛玉",
+      "target": "person:贾敏",
+      "type": "family_parent_child",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "林黛玉为贾敏所生。"
+    },
+    {
+      "id": "rel-0006",
+      "source": "person:贾敏",
+      "target": "person:贾母",
+      "type": "family_parent_child",
+      "confidence": "high",
+      "chapter": "002",
+      "quote": "贾敏为贾母之女。"
+    },
+    {
+      "id": "rel-0007",
+      "source": "person:贾宝玉",
+      "target": "person:贾政",
+      "type": "family_parent_child",
+      "confidence": "high",
+      "chapter": "002",
+      "quote": "宝玉为贾政之子。"
+    },
+    {
+      "id": "rel-0008",
+      "source": "person:贾宝玉",
+      "target": "person:王夫人",
+      "type": "family_parent_child",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "王夫人为宝玉之母。"
+    },
+    {
+      "id": "rel-0009",
+      "source": "person:贾政",
+      "target": "person:王夫人",
+      "type": "family_spouse",
+      "confidence": "high",
+      "chapter": "002",
+      "quote": "王夫人为贾政之妻。"
+    },
+    {
+      "id": "rel-0010",
+      "source": "person:贾赦",
+      "target": "person:邢夫人",
+      "type": "family_spouse",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "邢夫人为贾赦之妻。"
+    },
+    {
+      "id": "rel-0011",
+      "source": "person:贾宝玉",
+      "target": "person:林黛玉",
+      "type": "kinship_cousin",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "宝玉与黛玉同为贾母外孙辈亲眷。"
+    },
+    {
+      "id": "rel-0012",
+      "source": "person:王熙凤",
+      "target": "person:贾琏",
+      "type": "family_spouse",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "王熙凤为贾琏之妻。"
+    },
+    {
+      "id": "rel-0013",
+      "source": "person:林黛玉",
+      "target": "place:荣国府",
+      "type": "resides_at",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "林黛玉进荣国府。"
+    },
+    {
+      "id": "rel-0014",
+      "source": "person:贾宝玉",
+      "target": "place:荣国府",
+      "type": "resides_at",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "宝玉在荣国府与黛玉相见。"
+    },
+    {
+      "id": "rel-0015",
+      "source": "person:贾宝玉",
+      "target": "object:通灵宝玉",
+      "type": "owns_or_carries",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "宝玉衔玉而生，通灵宝玉与其相连。"
+    },
+    {
+      "id": "rel-0016",
+      "source": "person:薛蟠",
+      "target": "person:薛宝钗",
+      "type": "family_sibling",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "薛蟠与宝钗同为薛姨妈子女。"
+    },
+    {
+      "id": "rel-0017",
+      "source": "person:薛宝钗",
+      "target": "person:薛姨妈",
+      "type": "family_parent_child",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "宝钗为薛姨妈之女。"
+    },
+    {
+      "id": "rel-0018",
+      "source": "person:薛蟠",
+      "target": "person:薛姨妈",
+      "type": "family_parent_child",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "薛蟠为薛姨妈之子。"
+    },
+    {
+      "id": "rel-0019",
+      "source": "person:薛宝钗",
+      "target": "place:荣国府",
+      "type": "resides_at",
+      "confidence": "medium",
+      "chapter": "004",
+      "quote": "薛家入京并进入贾府亲戚网络。"
+    },
+    {
+      "id": "rel-0020",
+      "source": "person:甄英莲",
+      "target": "person:薛蟠",
+      "type": "coerced_by",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "薛蟠争买英莲并致人命。"
+    },
+    {
+      "id": "rel-0021",
+      "source": "person:甄英莲",
+      "target": "concept:薄命",
+      "type": "embodies_theme",
+      "confidence": "medium",
+      "chapter": "004",
+      "quote": "英莲遭拐并卷入命案，进入薄命叙事。"
+    },
+    {
+      "id": "rel-0022",
+      "source": "person:贾雨村",
+      "target": "person:薛蟠",
+      "type": "case_judgment",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "贾雨村乱判薛蟠案。"
+    },
+    {
+      "id": "rel-0023",
+      "source": "person:贾宝玉",
+      "target": "person:警幻仙姑",
+      "type": "dream_encounter",
+      "confidence": "high",
+      "chapter": "005",
+      "quote": "宝玉梦入太虚幻境见警幻仙姑。"
+    },
+    {
+      "id": "rel-0024",
+      "source": "person:贾宝玉",
+      "target": "place:太虚幻境",
+      "type": "dreams_of",
+      "confidence": "high",
+      "chapter": "005",
+      "quote": "宝玉神游太虚幻境。"
+    },
+    {
+      "id": "rel-0025",
+      "source": "person:秦可卿",
+      "target": "person:贾宝玉",
+      "type": "hosts",
+      "confidence": "medium",
+      "chapter": "005",
+      "quote": "宝玉在秦可卿处午睡入梦。"
+    },
+    {
+      "id": "rel-0026",
+      "source": "text:金陵十二钗",
+      "target": "person:林黛玉",
+      "type": "prophecy_mentions",
+      "confidence": "medium",
+      "chapter": "005",
+      "quote": "金陵十二钗册籍隐写黛玉等人命运。"
+    },
+    {
+      "id": "rel-0027",
+      "source": "text:金陵十二钗",
+      "target": "person:薛宝钗",
+      "type": "prophecy_mentions",
+      "confidence": "medium",
+      "chapter": "005",
+      "quote": "金陵十二钗册籍隐写宝钗等人命运。"
+    },
+    {
+      "id": "rel-0028",
+      "source": "text:金陵十二钗",
+      "target": "concept:薄命",
+      "type": "expresses_theme",
+      "confidence": "medium",
+      "chapter": "005",
+      "quote": "金陵十二钗册籍呈现薄命主题。"
+    },
+    {
+      "id": "event-001-001:appears_in_event:person:甄士隐",
+      "source": "person:甄士隐",
+      "target": "event-001-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "001",
+      "quote": "甄士隐梦中见一僧一道携通灵宝玉，引出全书梦幻框架。"
+    },
+    {
+      "id": "event-001-001:appears_in_event:person:癞头和尚",
+      "source": "person:癞头和尚",
+      "target": "event-001-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "001",
+      "quote": "甄士隐梦中见一僧一道携通灵宝玉，引出全书梦幻框架。"
+    },
+    {
+      "id": "event-001-001:appears_in_event:person:跛足道人",
+      "source": "person:跛足道人",
+      "target": "event-001-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "001",
+      "quote": "甄士隐梦中见一僧一道携通灵宝玉，引出全书梦幻框架。"
+    },
+    {
+      "id": "event-001-001:object_in_event:object:通灵宝玉",
+      "source": "object:通灵宝玉",
+      "target": "event-001-001",
+      "type": "object_in_event",
+      "confidence": "high",
+      "chapter": "001",
+      "quote": "甄士隐梦中见一僧一道携通灵宝玉，引出全书梦幻框架。"
+    },
+    {
+      "id": "event-001-002:appears_in_event:person:贾雨村",
+      "source": "person:贾雨村",
+      "target": "event-001-002",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "001",
+      "quote": "贾雨村寄居葫芦庙，因甄士隐相助与娇杏一顾留下后续线索。"
+    },
+    {
+      "id": "event-001-002:appears_in_event:person:娇杏",
+      "source": "person:娇杏",
+      "target": "event-001-002",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "001",
+      "quote": "贾雨村寄居葫芦庙，因甄士隐相助与娇杏一顾留下后续线索。"
+    },
+    {
+      "id": "event-001-002:appears_in_event:person:甄士隐",
+      "source": "person:甄士隐",
+      "target": "event-001-002",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "001",
+      "quote": "贾雨村寄居葫芦庙，因甄士隐相助与娇杏一顾留下后续线索。"
+    },
+    {
+      "id": "event-001-002:place_in_event:place:葫芦庙",
+      "source": "place:葫芦庙",
+      "target": "event-001-002",
+      "type": "place_in_event",
+      "confidence": "high",
+      "chapter": "001",
+      "quote": "贾雨村寄居葫芦庙，因甄士隐相助与娇杏一顾留下后续线索。"
+    },
+    {
+      "id": "event-001-003:appears_in_event:person:甄英莲",
+      "source": "person:甄英莲",
+      "target": "event-001-003",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "001",
+      "quote": "甄英莲幼年被拐，开启薄命线索。"
+    },
+    {
+      "id": "event-001-003:appears_in_event:person:甄士隐",
+      "source": "person:甄士隐",
+      "target": "event-001-003",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "001",
+      "quote": "甄英莲幼年被拐，开启薄命线索。"
+    },
+    {
+      "id": "event-002-001:appears_in_event:person:冷子兴",
+      "source": "person:冷子兴",
+      "target": "event-002-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "002",
+      "quote": "冷子兴向贾雨村介绍贾府世系和荣宁二府格局。"
+    },
+    {
+      "id": "event-002-001:appears_in_event:person:贾雨村",
+      "source": "person:贾雨村",
+      "target": "event-002-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "002",
+      "quote": "冷子兴向贾雨村介绍贾府世系和荣宁二府格局。"
+    },
+    {
+      "id": "event-002-001:appears_in_event:person:贾政",
+      "source": "person:贾政",
+      "target": "event-002-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "002",
+      "quote": "冷子兴向贾雨村介绍贾府世系和荣宁二府格局。"
+    },
+    {
+      "id": "event-002-001:appears_in_event:person:贾赦",
+      "source": "person:贾赦",
+      "target": "event-002-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "002",
+      "quote": "冷子兴向贾雨村介绍贾府世系和荣宁二府格局。"
+    },
+    {
+      "id": "event-002-001:appears_in_event:person:贾母",
+      "source": "person:贾母",
+      "target": "event-002-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "002",
+      "quote": "冷子兴向贾雨村介绍贾府世系和荣宁二府格局。"
+    },
+    {
+      "id": "event-002-001:place_in_event:place:荣国府",
+      "source": "place:荣国府",
+      "target": "event-002-001",
+      "type": "place_in_event",
+      "confidence": "high",
+      "chapter": "002",
+      "quote": "冷子兴向贾雨村介绍贾府世系和荣宁二府格局。"
+    },
+    {
+      "id": "event-002-001:place_in_event:place:宁国府",
+      "source": "place:宁国府",
+      "target": "event-002-001",
+      "type": "place_in_event",
+      "confidence": "high",
+      "chapter": "002",
+      "quote": "冷子兴向贾雨村介绍贾府世系和荣宁二府格局。"
+    },
+    {
+      "id": "event-003-001:appears_in_event:person:林黛玉",
+      "source": "person:林黛玉",
+      "target": "event-003-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "林黛玉入京进荣国府，拜见贾母并初见贾府众人。"
+    },
+    {
+      "id": "event-003-001:appears_in_event:person:贾母",
+      "source": "person:贾母",
+      "target": "event-003-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "林黛玉入京进荣国府，拜见贾母并初见贾府众人。"
+    },
+    {
+      "id": "event-003-001:appears_in_event:person:王熙凤",
+      "source": "person:王熙凤",
+      "target": "event-003-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "林黛玉入京进荣国府，拜见贾母并初见贾府众人。"
+    },
+    {
+      "id": "event-003-001:appears_in_event:person:贾宝玉",
+      "source": "person:贾宝玉",
+      "target": "event-003-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "林黛玉入京进荣国府，拜见贾母并初见贾府众人。"
+    },
+    {
+      "id": "event-003-001:place_in_event:place:荣国府",
+      "source": "place:荣国府",
+      "target": "event-003-001",
+      "type": "place_in_event",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "林黛玉入京进荣国府，拜见贾母并初见贾府众人。"
+    },
+    {
+      "id": "event-003-002:appears_in_event:person:贾宝玉",
+      "source": "person:贾宝玉",
+      "target": "event-003-002",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "贾宝玉与林黛玉初见，围绕通灵宝玉显出二人的特殊牵连。"
+    },
+    {
+      "id": "event-003-002:appears_in_event:person:林黛玉",
+      "source": "person:林黛玉",
+      "target": "event-003-002",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "贾宝玉与林黛玉初见，围绕通灵宝玉显出二人的特殊牵连。"
+    },
+    {
+      "id": "event-003-002:appears_in_event:person:贾母",
+      "source": "person:贾母",
+      "target": "event-003-002",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "贾宝玉与林黛玉初见，围绕通灵宝玉显出二人的特殊牵连。"
+    },
+    {
+      "id": "event-003-002:object_in_event:object:通灵宝玉",
+      "source": "object:通灵宝玉",
+      "target": "event-003-002",
+      "type": "object_in_event",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "贾宝玉与林黛玉初见，围绕通灵宝玉显出二人的特殊牵连。"
+    },
+    {
+      "id": "event-003-002:place_in_event:place:荣国府",
+      "source": "place:荣国府",
+      "target": "event-003-002",
+      "type": "place_in_event",
+      "confidence": "high",
+      "chapter": "003",
+      "quote": "贾宝玉与林黛玉初见，围绕通灵宝玉显出二人的特殊牵连。"
+    },
+    {
+      "id": "event-004-001:appears_in_event:person:贾雨村",
+      "source": "person:贾雨村",
+      "target": "event-004-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "贾雨村审理薛蟠夺英莲案，在门子提示下乱判葫芦案。"
+    },
+    {
+      "id": "event-004-001:appears_in_event:person:薛蟠",
+      "source": "person:薛蟠",
+      "target": "event-004-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "贾雨村审理薛蟠夺英莲案，在门子提示下乱判葫芦案。"
+    },
+    {
+      "id": "event-004-001:appears_in_event:person:甄英莲",
+      "source": "person:甄英莲",
+      "target": "event-004-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "贾雨村审理薛蟠夺英莲案，在门子提示下乱判葫芦案。"
+    },
+    {
+      "id": "event-004-001:place_in_event:place:金陵",
+      "source": "place:金陵",
+      "target": "event-004-001",
+      "type": "place_in_event",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "贾雨村审理薛蟠夺英莲案，在门子提示下乱判葫芦案。"
+    },
+    {
+      "id": "event-004-002:appears_in_event:person:薛姨妈",
+      "source": "person:薛姨妈",
+      "target": "event-004-002",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "薛家因入京待选和亲戚关系进入贾府叙事。"
+    },
+    {
+      "id": "event-004-002:appears_in_event:person:薛宝钗",
+      "source": "person:薛宝钗",
+      "target": "event-004-002",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "薛家因入京待选和亲戚关系进入贾府叙事。"
+    },
+    {
+      "id": "event-004-002:appears_in_event:person:薛蟠",
+      "source": "person:薛蟠",
+      "target": "event-004-002",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "薛家因入京待选和亲戚关系进入贾府叙事。"
+    },
+    {
+      "id": "event-004-002:place_in_event:place:京都",
+      "source": "place:京都",
+      "target": "event-004-002",
+      "type": "place_in_event",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "薛家因入京待选和亲戚关系进入贾府叙事。"
+    },
+    {
+      "id": "event-004-002:place_in_event:place:荣国府",
+      "source": "place:荣国府",
+      "target": "event-004-002",
+      "type": "place_in_event",
+      "confidence": "high",
+      "chapter": "004",
+      "quote": "薛家因入京待选和亲戚关系进入贾府叙事。"
+    },
+    {
+      "id": "event-005-001:appears_in_event:person:贾宝玉",
+      "source": "person:贾宝玉",
+      "target": "event-005-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "005",
+      "quote": "贾宝玉梦游太虚幻境，见金陵十二钗册籍与红楼梦曲。"
+    },
+    {
+      "id": "event-005-001:appears_in_event:person:秦可卿",
+      "source": "person:秦可卿",
+      "target": "event-005-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "005",
+      "quote": "贾宝玉梦游太虚幻境，见金陵十二钗册籍与红楼梦曲。"
+    },
+    {
+      "id": "event-005-001:appears_in_event:person:警幻仙姑",
+      "source": "person:警幻仙姑",
+      "target": "event-005-001",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "005",
+      "quote": "贾宝玉梦游太虚幻境，见金陵十二钗册籍与红楼梦曲。"
+    },
+    {
+      "id": "event-005-001:place_in_event:place:太虚幻境",
+      "source": "place:太虚幻境",
+      "target": "event-005-001",
+      "type": "place_in_event",
+      "confidence": "high",
+      "chapter": "005",
+      "quote": "贾宝玉梦游太虚幻境，见金陵十二钗册籍与红楼梦曲。"
+    },
+    {
+      "id": "event-005-002:appears_in_event:person:贾宝玉",
+      "source": "person:贾宝玉",
+      "target": "event-005-002",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "005",
+      "quote": "宝玉在太虚幻境中见金陵十二钗册籍和判词，形成后文命运索引。"
+    },
+    {
+      "id": "event-005-002:appears_in_event:person:警幻仙姑",
+      "source": "person:警幻仙姑",
+      "target": "event-005-002",
+      "type": "appears_in_event",
+      "confidence": "high",
+      "chapter": "005",
+      "quote": "宝玉在太虚幻境中见金陵十二钗册籍和判词，形成后文命运索引。"
+    },
+    {
+      "id": "event-005-002:place_in_event:place:太虚幻境",
+      "source": "place:太虚幻境",
+      "target": "event-005-002",
+      "type": "place_in_event",
+      "confidence": "high",
+      "chapter": "005",
+      "quote": "宝玉在太虚幻境中见金陵十二钗册籍和判词，形成后文命运索引。"
+    }
+  ]
+}
