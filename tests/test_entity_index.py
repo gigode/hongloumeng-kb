@@ -16,3 +16,18 @@ def test_build_entity_index_has_core_people():
     assert "person:贾宝玉" in entities
     assert "person:林黛玉" in entities
     assert entities["person:贾宝玉"]["count"] > 0
+
+
+def test_build_entity_index_has_all_highlight_categories():
+    data = build_entity_index()
+    present = {entity["type"] for entity in data["entities"].values() if entity["count"] > 0}
+    assert {
+        "person",
+        "place",
+        "household",
+        "role",
+        "object",
+        "text",
+        "concept",
+        "time",
+    } <= present

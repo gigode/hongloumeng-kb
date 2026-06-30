@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from scripts.kb import TAG_TYPES
 from scripts.render_site import DOCS_DIR
 
 
@@ -22,3 +23,15 @@ def test_graph_uses_chinese_relation_labels():
     assert "人物出场于事件" in script
     assert "option.textContent = labelForRelation(type)" in script
     assert "graph.js?v=" in html
+
+
+def test_entity_category_pages_have_stats_and_notes():
+    for entity_type, label, _css_class in TAG_TYPES.values():
+        html = (DOCS_DIR / "entities" / f"{entity_type}.html").read_text(encoding="utf-8")
+        assert label in html
+        assert "分类统计" in html
+        assert "关系读法" in html
+        assert "详细注释" in html
+        assert "资料依据" in html
+        assert "entity-note-card" in html
+        assert "source-list" in html

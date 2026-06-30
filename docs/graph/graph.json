@@ -1,16 +1,40 @@
 {
   "nodes": [
     {
-      "id": "concept:情",
-      "label": "情",
+      "id": "concept:假语村言",
+      "label": "假语村言",
       "type": "concept",
-      "count": 86
+      "count": 1
     },
     {
-      "id": "concept:梦",
-      "label": "梦",
+      "id": "concept:凡心",
+      "label": "凡心",
       "type": "concept",
-      "count": 34
+      "count": 3
+    },
+    {
+      "id": "concept:太虚",
+      "label": "太虚",
+      "type": "concept",
+      "count": 3
+    },
+    {
+      "id": "concept:孽海情天",
+      "label": "孽海情天",
+      "type": "concept",
+      "count": 1
+    },
+    {
+      "id": "concept:幻境",
+      "label": "幻境",
+      "type": "concept",
+      "count": 6
+    },
+    {
+      "id": "concept:木石前盟",
+      "label": "木石前盟",
+      "type": "concept",
+      "count": 1
     },
     {
       "id": "concept:梦幻",
@@ -19,22 +43,52 @@
       "count": 3
     },
     {
-      "id": "concept:空",
-      "label": "空",
+      "id": "concept:炎凉世态",
+      "label": "炎凉世态",
       "type": "concept",
-      "count": 29
+      "count": 1
     },
     {
-      "id": "concept:色",
-      "label": "色",
+      "id": "concept:真事隐",
+      "label": "真事隐",
       "type": "concept",
-      "count": 28
+      "count": 1
+    },
+    {
+      "id": "concept:离合悲欢",
+      "label": "离合悲欢",
+      "type": "concept",
+      "count": 2
+    },
+    {
+      "id": "concept:红尘",
+      "label": "红尘",
+      "type": "concept",
+      "count": 7
     },
     {
       "id": "concept:薄命",
       "label": "薄命",
       "type": "concept",
-      "count": 2
+      "count": 1
+    },
+    {
+      "id": "concept:补天",
+      "label": "补天",
+      "type": "concept",
+      "count": 4
+    },
+    {
+      "id": "concept:还泪",
+      "label": "还泪",
+      "type": "concept",
+      "count": 1
+    },
+    {
+      "id": "concept:金玉良缘",
+      "label": "金玉良缘",
+      "type": "concept",
+      "count": 1
     },
     {
       "id": "concept:风月",
@@ -67,16 +121,40 @@
       "count": 1
     },
     {
+      "id": "object:万艳同杯",
+      "label": "万艳同杯",
+      "type": "object",
+      "count": 1
+    },
+    {
+      "id": "object:仙醪",
+      "label": "仙醪",
+      "type": "object",
+      "count": 2
+    },
+    {
+      "id": "object:千红一窟",
+      "label": "千红一窟",
+      "type": "object",
+      "count": 1
+    },
+    {
       "id": "object:通灵宝玉",
       "label": "通灵宝玉",
       "type": "object",
-      "count": 1
+      "count": 6
+    },
+    {
+      "id": "object:顽石",
+      "label": "顽石",
+      "type": "object",
+      "count": 10
     },
     {
       "id": "object:风月宝鉴",
       "label": "风月宝鉴",
       "type": "object",
-      "count": 1
+      "count": 2
     },
     {
       "id": "person:冷子兴",
@@ -91,10 +169,28 @@
       "count": 4
     },
     {
+      "id": "person:封氏",
+      "label": "封氏",
+      "type": "person",
+      "count": 3
+    },
+    {
       "id": "person:封肃",
       "label": "封肃",
       "type": "person",
       "count": 13
+    },
+    {
+      "id": "person:晴雯",
+      "label": "晴雯",
+      "type": "person",
+      "count": 1
+    },
+    {
+      "id": "person:李纨",
+      "label": "李纨",
+      "type": "person",
+      "count": 2
     },
     {
       "id": "person:林如海",
@@ -107,6 +203,12 @@
       "label": "林黛玉",
       "type": "person",
       "count": 96
+    },
+    {
+      "id": "person:渺渺真人",
+      "label": "渺渺真人",
+      "type": "person",
+      "count": 1
     },
     {
       "id": "person:王夫人",
@@ -124,7 +226,7 @@
       "id": "person:甄士隐",
       "label": "甄士隐",
       "type": "person",
-      "count": 3
+      "count": 46
     },
     {
       "id": "person:甄英莲",
@@ -139,10 +241,28 @@
       "count": 4
     },
     {
+      "id": "person:石头",
+      "label": "石头",
+      "type": "person",
+      "count": 1
+    },
+    {
       "id": "person:秦可卿",
       "label": "秦可卿",
       "type": "person",
       "count": 15
+    },
+    {
+      "id": "person:空空道人",
+      "label": "空空道人",
+      "type": "person",
+      "count": 5
+    },
+    {
+      "id": "person:茫茫大士",
+      "label": "茫茫大士",
+      "type": "person",
+      "count": 1
     },
     {
       "id": "person:薛姨妈",
@@ -163,10 +283,22 @@
       "count": 19
     },
     {
+      "id": "person:袭人",
+      "label": "袭人",
+      "type": "person",
+      "count": 13
+    },
+    {
       "id": "person:警幻仙姑",
       "label": "警幻仙姑",
       "type": "person",
       "count": 1
+    },
+    {
+      "id": "person:贾元春",
+      "label": "贾元春",
+      "type": "person",
+      "count": 2
     },
     {
       "id": "person:贾宝玉",
@@ -232,13 +364,13 @@
       "id": "person:贾雨村",
       "label": "贾雨村",
       "type": "person",
-      "count": 7
+      "count": 107
     },
     {
       "id": "person:跛足道人",
       "label": "跛足道人",
       "type": "person",
-      "count": 19
+      "count": 14
     },
     {
       "id": "person:邢夫人",
@@ -247,14 +379,50 @@
       "count": 8
     },
     {
+      "id": "person:雪雁",
+      "label": "雪雁",
+      "type": "person",
+      "count": 2
+    },
+    {
+      "id": "person:霍启",
+      "label": "霍启",
+      "type": "person",
+      "count": 4
+    },
+    {
+      "id": "person:鸳鸯",
+      "label": "鸳鸯",
+      "type": "person",
+      "count": 1
+    },
+    {
+      "id": "place:三生石畔",
+      "label": "三生石畔",
+      "type": "place",
+      "count": 1
+    },
+    {
       "id": "place:京都",
       "label": "京都",
       "type": "place",
       "count": 5
     },
     {
+      "id": "place:仁清巷",
+      "label": "仁清巷",
+      "type": "place",
+      "count": 1
+    },
+    {
       "id": "place:会芳园",
       "label": "会芳园",
+      "type": "place",
+      "count": 1
+    },
+    {
+      "id": "place:十里街",
+      "label": "十里街",
       "type": "place",
       "count": 1
     },
@@ -283,6 +451,12 @@
       "count": 4
     },
     {
+      "id": "place:灵河岸",
+      "label": "灵河岸",
+      "type": "place",
+      "count": 1
+    },
+    {
       "id": "place:荣国府",
       "label": "荣国府",
       "type": "place",
@@ -293,6 +467,12 @@
       "label": "葫芦庙",
       "type": "place",
       "count": 7
+    },
+    {
+      "id": "place:薄命司",
+      "label": "薄命司",
+      "type": "place",
+      "count": 1
     },
     {
       "id": "place:贾府",
@@ -307,6 +487,12 @@
       "count": 17
     },
     {
+      "id": "place:青埂峰",
+      "label": "青埂峰",
+      "type": "place",
+      "count": 2
+    },
+    {
       "id": "role:丫鬟",
       "label": "丫鬟",
       "type": "role",
@@ -319,10 +505,34 @@
       "count": 13
     },
     {
+      "id": "role:侄女",
+      "label": "侄女",
+      "type": "role",
+      "count": 2
+    },
+    {
+      "id": "role:僧",
+      "label": "僧",
+      "type": "role",
+      "count": 25
+    },
+    {
       "id": "role:公子",
       "label": "公子",
       "type": "role",
       "count": 18
+    },
+    {
+      "id": "role:外祖母",
+      "label": "外祖母",
+      "type": "role",
+      "count": 7
+    },
+    {
+      "id": "role:太太",
+      "label": "太太",
+      "type": "role",
+      "count": 8
     },
     {
       "id": "role:奶娘",
@@ -337,10 +547,40 @@
       "count": 12
     },
     {
+      "id": "role:婆子",
+      "label": "婆子",
+      "type": "role",
+      "count": 6
+    },
+    {
+      "id": "role:媳妇",
+      "label": "媳妇",
+      "type": "role",
+      "count": 4
+    },
+    {
+      "id": "role:家人",
+      "label": "家人",
+      "type": "role",
+      "count": 10
+    },
+    {
+      "id": "role:小厮",
+      "label": "小厮",
+      "type": "role",
+      "count": 7
+    },
+    {
       "id": "role:小姐",
       "label": "小姐",
       "type": "role",
       "count": 12
+    },
+    {
+      "id": "role:巡盐御史",
+      "label": "巡盐御史",
+      "type": "role",
+      "count": 2
     },
     {
       "id": "role:知府",
@@ -349,10 +589,40 @@
       "count": 1
     },
     {
+      "id": "role:老太太",
+      "label": "老太太",
+      "type": "role",
+      "count": 4
+    },
+    {
+      "id": "role:老爷",
+      "label": "老爷",
+      "type": "role",
+      "count": 27
+    },
+    {
+      "id": "role:老祖宗",
+      "label": "老祖宗",
+      "type": "role",
+      "count": 5
+    },
+    {
+      "id": "role:舅舅",
+      "label": "舅舅",
+      "type": "role",
+      "count": 8
+    },
+    {
       "id": "role:进士",
       "label": "进士",
       "type": "role",
       "count": 2
+    },
+    {
+      "id": "role:道士",
+      "label": "道士",
+      "type": "role",
+      "count": 1
     },
     {
       "id": "role:门子",
@@ -367,10 +637,46 @@
       "count": 2
     },
     {
+      "id": "text:护官符",
+      "label": "护官符",
+      "type": "text",
+      "count": 4
+    },
+    {
+      "id": "text:西江月",
+      "label": "西江月",
+      "type": "text",
+      "count": 1
+    },
+    {
       "id": "text:金陵十二钗",
       "label": "金陵十二钗",
       "type": "text",
-      "count": 5
+      "count": 1
+    },
+    {
+      "id": "text:金陵十二钗副册",
+      "label": "金陵十二钗副册",
+      "type": "text",
+      "count": 1
+    },
+    {
+      "id": "text:金陵十二钗又副册",
+      "label": "金陵十二钗又副册",
+      "type": "text",
+      "count": 1
+    },
+    {
+      "id": "text:金陵十二钗正册",
+      "label": "金陵十二钗正册",
+      "type": "text",
+      "count": 2
+    },
+    {
+      "id": "text:飞鸟各投林",
+      "label": "飞鸟各投林",
+      "type": "text",
+      "count": 1
     },
     {
       "id": "event-001-001",

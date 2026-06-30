@@ -1,0 +1,395 @@
+{
+  "sources": {
+    "wikisource-text": {
+      "label": "维基文库《红楼梦》",
+      "url": "https://zh.wikisource.org/wiki/紅樓夢",
+      "note": "作为试点底本文本与回目依据。维基文库说明其前八十回以庚辰本为底本，后四十回以程甲本为底本。"
+    },
+    "jinling-wiki": {
+      "label": "维基百科：金陵十二钗",
+      "url": "https://zh.wikipedia.org/zh-hans/金陵十二钗",
+      "note": "用于梳理正册、副册、又副册与第五回太虚幻境判词结构。"
+    },
+    "baoyu-wiki": {
+      "label": "维基百科：贾宝玉",
+      "url": "https://zh.wikipedia.org/wiki/賈寶玉",
+      "note": "用于核对贾宝玉的府系、居所、通灵宝玉、木石前盟与金玉良缘关系。"
+    },
+    "xifeng-wiki": {
+      "label": "维基百科：王熙凤",
+      "url": "https://zh.wikipedia.org/wiki/王熙鳳",
+      "note": "用于核对王熙凤的亲属关系、荣国府管家身份和第三回出场信息。"
+    },
+    "narrative-view": {
+      "label": "《红楼梦》多维叙事视角研究",
+      "url": "https://html.rhhz.net/WNSFXYXB/html/bd6951fc-e075-4692-9b2f-e5e3ace6e02c.htm",
+      "note": "用于理解石头、通灵玉、宝玉之间的叙事视角关系。"
+    },
+    "daguanyuan-paper": {
+      "label": "大观园隐喻研究",
+      "url": "https://rc019.ndhu.edu.tw/var/file/56/1056/img/2548/190664578.pdf",
+      "note": "用于理解大观园作为少女世界、理想空间与活动背景的地位。"
+    },
+    "jianmei-thesis": {
+      "label": "《红楼梦》兼美论人物关系研究",
+      "url": "https://www.airitilibrary.com/Article/Detail?DocID=U0021-1610201315175708&source=&sourceDocID=",
+      "note": "用于整理钗黛合写、木石前盟、金玉良缘、真/假、情/礼等关系框架。"
+    }
+  },
+  "categories": {
+    "person": {
+      "title": "人物",
+      "description": "人物页重点看血缘、姻亲、主仆、前世神话和判词预示。前五回已经把甄士隐、贾雨村、贾宝玉、林黛玉、王熙凤等人物放进同一个关系网：一边是现实家族，一边是太虚幻境的宿命框架。",
+      "relationship_lens": [
+        "血缘与姻亲：贾、史、王、薛、林几家互相嵌套，人物关系不能只按同姓看。",
+        "叙事入口：甄士隐、贾雨村负责把梦幻和现实两条线接起来。",
+        "判词与前盟：第五回把金陵十二钗和木石前盟、金玉良缘提前投影出来。"
+      ],
+      "source_ids": ["jinling-wiki", "baoyu-wiki", "xifeng-wiki", "narrative-view", "jianmei-thesis"]
+    },
+    "place": {
+      "title": "地点",
+      "description": "地点不仅是场景，也是价值空间。青埂峰、太虚幻境偏向神话和命数，荣宁二府偏向宗族秩序，大观园则在后文成为女儿世界和诗性空间。",
+      "relationship_lens": [
+        "神话空间：青埂峰、赤霞宫、灵河岸、太虚幻境解释人物前缘。",
+        "家族空间：荣国府、宁国府、贾府承载权力、礼法和日常秩序。",
+        "理想空间：大观园及其院落把人物性格、诗社活动和盛衰预兆结合起来。"
+      ],
+      "source_ids": ["wikisource-text", "baoyu-wiki", "daguanyuan-paper"]
+    },
+    "household": {
+      "title": "府系",
+      "description": "府系页把同姓家族、府第和四大家族关系分开看。它服务于图谱中的亲属、婚姻、庇护和权势链路。",
+      "relationship_lens": [
+        "贾府内部要区分荣国府与宁国府，它们共同构成宁荣二府。",
+        "王熙凤、王夫人、薛姨妈等人物说明王、薛、贾之间的姻亲网络。",
+        "护官符把家族关系从人物传记扩展为地方权力结构。"
+      ],
+      "source_ids": ["xifeng-wiki", "jianmei-thesis"]
+    },
+    "role": {
+      "title": "身份",
+      "description": "身份不是简单头衔，而是人物行动的约束条件。小姐、丫鬟、太太、奶奶、知府、门子等称谓共同显示家内秩序、官场秩序和叙事视角。",
+      "relationship_lens": [
+        "亲属身份决定称谓，也决定人物能否进入某个空间或事件。",
+        "官职与门子关系推动葫芦案线索，展示权力运作。",
+        "家内身份如丫鬟、奶奶、太太常常和管家、婚姻、继承问题相连。"
+      ],
+      "source_ids": ["xifeng-wiki", "jianmei-thesis"]
+    },
+    "object": {
+      "title": "物件",
+      "description": "物件页重点看象征物和证据物。通灵宝玉、顽石、金锁、风月宝鉴等不是普通道具，而是人物命运、婚恋叙事和真假主题的连接器。",
+      "relationship_lens": [
+        "通灵宝玉把神话石头、贾宝玉肉身和叙事视角绑在一起。",
+        "金锁与通灵宝玉构成金玉良缘的物证式线索。",
+        "风月宝鉴一类物件把欲望、警示和幻象叠合。"
+      ],
+      "source_ids": ["baoyu-wiki", "narrative-view", "jianmei-thesis"]
+    },
+    "text": {
+      "title": "诗文",
+      "description": "诗文页收集回内歌、曲、判词和册名。第五回的册子、判词和《红楼梦曲》是前五回最重要的预示系统。",
+      "relationship_lens": [
+        "《好了歌》和解注把盛衰、真假、空幻主题转成可读的哲理入口。",
+        "金陵十二钗册页把人物命运以图册、判词和曲文方式提前压缩。",
+        "护官符把家族名单和地方政治关系写成口诀。"
+      ],
+      "source_ids": ["wikisource-text", "jinling-wiki", "jianmei-thesis"]
+    },
+    "concept": {
+      "title": "概念",
+      "description": "概念页不是只标抽象词，而是保留能组织关系的主题短语：梦幻、薄命、真事隐、假语村言、木石前盟、金玉良缘、还泪、补天等。",
+      "relationship_lens": [
+        "真/假与梦幻结构决定文本如何在现实、神话和寓言之间切换。",
+        "木石前盟与金玉良缘是人物婚恋和宿命冲突的两条主线。",
+        "薄命、风月、情礼等概念把个人遭遇连接到全书主题。"
+      ],
+      "source_ids": ["narrative-view", "jinling-wiki", "jianmei-thesis"]
+    },
+    "time": {
+      "title": "时间",
+      "description": "时间页记录章回叙事中的推进词。前五回大量使用“一日”“次日”“当日”“此时”等相对时间，它们帮助定位事件顺序，而不是追求公历纪年。",
+      "relationship_lens": [
+        "相对时间词适合做事件排序和段落导航。",
+        "梦境与现实之间的切换常靠时间词和醒梦节点完成。",
+        "后续版本可把时间词接入事件页，形成更完整的章回时间线。"
+      ],
+      "source_ids": ["wikisource-text", "narrative-view"]
+    }
+  },
+  "entities": {
+    "person:贾宝玉": {
+      "summary": "荣国府核心人物，贾政与王夫人之子，出生时带有通灵宝玉。前五回同时把他放进现实家族、太虚幻境和木石前盟三套关系。",
+      "relation_notes": [
+        "与林黛玉对应木石前盟，与薛宝钗对应金玉良缘。",
+        "通灵宝玉把顽石神话和宝玉肉身连接起来。"
+      ],
+      "source_ids": ["baoyu-wiki", "narrative-view", "jianmei-thesis"]
+    },
+    "person:林黛玉": {
+      "summary": "林如海与贾敏之女，进入荣国府后成为宝玉关系网的核心人物之一。她的前世还泪线索把情感关系和神话因缘绑定。",
+      "relation_notes": [
+        "与贾宝玉组成木石前盟线索。",
+        "在钗黛并置结构中，与薛宝钗共同承接第五回判词框架。"
+      ],
+      "source_ids": ["jinling-wiki", "baoyu-wiki", "jianmei-thesis"]
+    },
+    "person:薛宝钗": {
+      "summary": "薛姨妈之女，进入贾府关系网后与宝玉构成金玉良缘线索。她也属于金陵十二钗正册结构。",
+      "relation_notes": [
+        "金锁与通灵宝玉构成金玉良缘的物象基础。",
+        "与林黛玉在判词和人物关系中形成并置。"
+      ],
+      "source_ids": ["jinling-wiki", "baoyu-wiki", "jianmei-thesis"]
+    },
+    "person:王熙凤": {
+      "summary": "王夫人侄女、贾琏之妻，在荣国府中承担实际管家功能。第三回出场就展示了她的家族位置、管理能力和话语权。",
+      "relation_notes": [
+        "以王家姻亲身份进入贾府权力结构。",
+        "既是亲属，也是荣国府日常治理的执行者。"
+      ],
+      "source_ids": ["xifeng-wiki", "jianmei-thesis"]
+    },
+    "person:甄士隐": {
+      "summary": "第一回现实故事入口人物，女儿英莲被拐、家业变故后出家。他的名字也服务于真事隐的寓意结构。",
+      "relation_notes": [
+        "和贾雨村共同开启从寓言到现实的叙事过渡。",
+        "英莲线索在前五回连接拐卖、葫芦案和四大家族权势。"
+      ],
+      "source_ids": ["wikisource-text", "narrative-view"]
+    },
+    "person:贾雨村": {
+      "summary": "由落魄士人进入官场的人物，前五回通过葫芦案展示其仕途和权力伦理。他也是现实社会线的重要导入者。",
+      "relation_notes": [
+        "与甄士隐相接，推动第一回到第四回的现实线。",
+        "门子和护官符使他进入四大家族权力网络。"
+      ],
+      "source_ids": ["wikisource-text", "jianmei-thesis"]
+    },
+    "person:贾母": {
+      "summary": "荣国府长辈核心，宝玉和黛玉入府后的情感与生活秩序都绕不开她。她的亲属位置决定了林黛玉进入贾府的合理性。",
+      "relation_notes": [
+        "以外祖母身份接纳林黛玉。",
+        "在荣国府内部是称谓、礼法和情感资源的中心。"
+      ],
+      "source_ids": ["baoyu-wiki", "jianmei-thesis"]
+    },
+    "person:警幻仙姑": {
+      "summary": "第五回太虚幻境中的引导人物，负责把宝玉带入册页、判词和梦境曲文系统。",
+      "relation_notes": [
+        "连接梦境空间和金陵十二钗命运预示。",
+        "把人物关系从现实叙事提升为宿命结构。"
+      ],
+      "source_ids": ["jinling-wiki", "narrative-view"]
+    },
+    "person:甄英莲": {
+      "summary": "甄士隐之女，前五回被拐后成为葫芦案关键人物。她后续又与香菱身份相接，是薄命线的重要早期例子。",
+      "relation_notes": [
+        "个人遭遇连接拐卖、家破和官场裁判。",
+        "葫芦案把她的命运卷入四大家族权势。"
+      ],
+      "source_ids": ["wikisource-text", "jianmei-thesis"]
+    },
+    "place:太虚幻境": {
+      "summary": "第五回梦境空间，也是金陵十二钗册页和《红楼梦曲》出现的场所。它把人物命运以诗文、图册和曲文方式提前展示。",
+      "relation_notes": [
+        "与薄命司、警幻仙姑、红楼梦曲组成预示系统。",
+        "把现实人物关系转译为宿命文本。"
+      ],
+      "source_ids": ["jinling-wiki", "narrative-view"]
+    },
+    "place:荣国府": {
+      "summary": "贾府现实生活的主要空间之一，宝玉、黛玉、王熙凤等核心人物的日常关系在这里展开。",
+      "relation_notes": [
+        "与宁国府共同构成宁荣二府。",
+        "既是家族空间，也是身份秩序和权力运作的场域。"
+      ],
+      "source_ids": ["baoyu-wiki", "xifeng-wiki"]
+    },
+    "place:宁国府": {
+      "summary": "宁荣二府之一，前五回通过冷子兴演说和秦可卿相关线索进入叙事。",
+      "relation_notes": [
+        "与荣国府互为宗族空间。",
+        "后续事件可继续接入秦可卿、贾珍等节点。"
+      ],
+      "source_ids": ["wikisource-text", "jianmei-thesis"]
+    },
+    "place:大观园": {
+      "summary": "虽然前五回尚未正式展开，但它是全书后段人物活动和诗性空间的关键地点，适合提前作为地点体系的核心节点。",
+      "relation_notes": [
+        "研究中常把大观园视为女儿世界和理想空间。",
+        "后续可把怡红院、潇湘馆、蘅芜苑等院落接入。"
+      ],
+      "source_ids": ["daguanyuan-paper", "baoyu-wiki"]
+    },
+    "place:葫芦庙": {
+      "summary": "甄士隐故事的重要地点，火灾、英莲线索和葫芦案在语义上相互呼应。",
+      "relation_notes": [
+        "从地点进入事件：葫芦庙火、葫芦案。",
+        "把个人家变和官场判断连接起来。"
+      ],
+      "source_ids": ["wikisource-text"]
+    },
+    "household:贾家": {
+      "summary": "全书现实家族网络的中心，前五回通过冷子兴演说和林黛玉入府逐步展开。",
+      "relation_notes": [
+        "内部需区分荣国府、宁国府。",
+        "与王、史、薛、林等家族通过婚姻和亲属关系相接。"
+      ],
+      "source_ids": ["baoyu-wiki", "xifeng-wiki", "jianmei-thesis"]
+    },
+    "household:金陵四大家族": {
+      "summary": "护官符中呈现的权势网络，强调贾、史、王、薛四家的互相支撑。",
+      "relation_notes": [
+        "是葫芦案判断背后的社会关系图。",
+        "可作为后续官场、婚姻和庇护关系的总节点。"
+      ],
+      "source_ids": ["wikisource-text", "jianmei-thesis"]
+    },
+    "role:丫鬟": {
+      "summary": "家内服务身份，也是人物亲密关系和府内信息流动的重要角色类型。",
+      "relation_notes": [
+        "后续可接入袭人、晴雯、紫鹃、鸳鸯等人物。",
+        "与小姐、太太、奶奶等身份共同构成府内等级。"
+      ],
+      "source_ids": ["jianmei-thesis"]
+    },
+    "role:门子": {
+      "summary": "第四回中推动葫芦案解释的关键身份，代表官场内部的信息渠道。",
+      "relation_notes": [
+        "通过护官符把贾雨村引入地方权势网络。",
+        "是官场身份和家族权势之间的转换节点。"
+      ],
+      "source_ids": ["wikisource-text"]
+    },
+    "role:仙姑": {
+      "summary": "太虚幻境中的引导身份，和现实家族身份不同，主要承担梦境解释和命运揭示功能。",
+      "relation_notes": [
+        "与警幻仙姑实体高度相关。",
+        "连接人物、诗文、概念三类标签。"
+      ],
+      "source_ids": ["jinling-wiki", "narrative-view"]
+    },
+    "object:通灵宝玉": {
+      "summary": "贾宝玉出生时携带的核心物件，源头接到顽石神话，后续又与金锁形成金玉良缘线索。",
+      "relation_notes": [
+        "连接顽石、贾宝玉和叙事视角。",
+        "与金锁构成婚恋叙事中的物象对照。"
+      ],
+      "source_ids": ["baoyu-wiki", "narrative-view", "jianmei-thesis"]
+    },
+    "object:顽石": {
+      "summary": "第一回神话源头中的石头，因补天未用而入世，后来与通灵宝玉和叙事者位置发生关联。",
+      "relation_notes": [
+        "从神话物进入叙事主体。",
+        "对应补天、凡心、梦幻等概念。"
+      ],
+      "source_ids": ["baoyu-wiki", "narrative-view"]
+    },
+    "object:金锁": {
+      "summary": "薛宝钗相关物件，与通灵宝玉一起构成金玉良缘的物证式结构。",
+      "relation_notes": [
+        "和通灵宝玉形成金玉对应。",
+        "将薛宝钗纳入宝玉婚恋关系主线。"
+      ],
+      "source_ids": ["baoyu-wiki", "jianmei-thesis"]
+    },
+    "object:风月宝鉴": {
+      "summary": "后续重要象征物，常被理解为欲望、镜像和警示的结合。第一版先把它作为物件类型预留。",
+      "relation_notes": [
+        "适合连接风月、幻象、欲望警示等概念。",
+        "后续章节扩展时应补充具体段落证据。"
+      ],
+      "source_ids": ["jianmei-thesis"]
+    },
+    "text:好了歌": {
+      "summary": "第一回中的主题性歌文，借盛衰转换把现实功名、家业、亲情放入空幻框架。",
+      "relation_notes": [
+        "与好了歌解共同构成第一回主题入口。",
+        "连接梦幻、红尘、真假等概念。"
+      ],
+      "source_ids": ["wikisource-text"]
+    },
+    "text:金陵十二钗": {
+      "summary": "第五回太虚幻境中的人物命运册页系统，分正册、副册、又副册，是人物统计和判词关系的核心。",
+      "relation_notes": [
+        "正册人物与宝玉身边女子及薄命主题相连。",
+        "和判词、图册、红楼梦曲共同形成预示系统。"
+      ],
+      "source_ids": ["jinling-wiki", "jianmei-thesis"]
+    },
+    "text:红楼梦曲": {
+      "summary": "第五回出现的曲文系统，与金陵十二钗册页相互配合，用曲牌方式预示人物命运。",
+      "relation_notes": [
+        "与太虚幻境、警幻仙姑、薄命司共同出现。",
+        "适合后续做人物到曲文的映射表。"
+      ],
+      "source_ids": ["wikisource-text", "jinling-wiki"]
+    },
+    "text:护官符": {
+      "summary": "第四回用口诀方式呈现地方官场必须顾忌的四大家族关系。",
+      "relation_notes": [
+        "连接贾雨村、门子、葫芦案和金陵四大家族。",
+        "是把诗文标签接入权力图谱的关键文本。"
+      ],
+      "source_ids": ["wikisource-text"]
+    },
+    "concept:梦幻": {
+      "summary": "前五回最核心的结构概念之一，文本在梦、幻、真、假之间切换，并借太虚幻境显示人物命运。",
+      "relation_notes": [
+        "连接太虚幻境、石头叙事和红楼梦曲。",
+        "为真假、空幻和寓言叙述提供总框架。"
+      ],
+      "source_ids": ["narrative-view", "jianmei-thesis"]
+    },
+    "concept:木石前盟": {
+      "summary": "贾宝玉和林黛玉关系的前世因缘线索，和后来的金玉良缘形成张力。",
+      "relation_notes": [
+        "连接神瑛侍者、绛珠草、还泪和宝黛关系。",
+        "与金玉良缘构成婚恋叙事的双线冲突。"
+      ],
+      "source_ids": ["baoyu-wiki", "jianmei-thesis"]
+    },
+    "concept:金玉良缘": {
+      "summary": "贾宝玉和薛宝钗关系的婚配话语，依托通灵宝玉与金锁的物象对应。",
+      "relation_notes": [
+        "和木石前盟形成叙事对照。",
+        "连接薛宝钗、贾宝玉、通灵宝玉、金锁。"
+      ],
+      "source_ids": ["baoyu-wiki", "jianmei-thesis"]
+    },
+    "concept:薄命": {
+      "summary": "第五回太虚幻境和金陵十二钗册页中的关键主题，用来统摄众女子命运。",
+      "relation_notes": [
+        "连接薄命司、金陵十二钗、判词和曲文。",
+        "适合后续做人物命运标签。"
+      ],
+      "source_ids": ["jinling-wiki", "jianmei-thesis"]
+    },
+    "concept:真事隐": {
+      "summary": "由甄士隐名字引出的寓意结构，提示文本在真事与虚构之间的转换。",
+      "relation_notes": [
+        "与假语村言共同构成第一回命名谐音。",
+        "连接甄士隐、贾雨村和真假主题。"
+      ],
+      "source_ids": ["wikisource-text", "narrative-view"]
+    },
+    "time:一日": {
+      "summary": "章回小说常用的相对时间推进词，适合在段落级做事件排序标记。",
+      "relation_notes": [
+        "前五回多处用来开启新事件。",
+        "后续可进入事件时间线。"
+      ],
+      "source_ids": ["wikisource-text"]
+    },
+    "time:次日": {
+      "summary": "表示事件紧接推进的相对时间词，常用于章回内部的叙事转换。",
+      "relation_notes": [
+        "可辅助识别连续事件。",
+        "和一日、当日、此时等共同构成时间索引。"
+      ],
+      "source_ids": ["wikisource-text"]
+    }
+  }
+}
